@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">SahabatLansia</string>
+
+    <string-array name="data_nama">
+        <item>Nama Caregiver1</item>
+        <item>Nama Caregiver2</item>
+        <item>Nama Caregiver3</item>
+        <item>Nama Caregiver4</item>
+        <item>Nama Caregiver5</item>
+    </string-array>
+
+    <string-array name="data_asal">
+        <item>Asal Kota1</item>
+        <item>Asal Kota2</item>
+        <item>Asal Kota3</item>
+        <item>Asal Kota4</item>
+        <item>Asal Kota5</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/caregiver_card_photo</item>
+        <item>@drawable/caregiver_card_photo</item>
+        <item>@drawable/caregiver_card_photo</item>
+        <item>@drawable/caregiver_card_photo</item>
+        <item>@drawable/caregiver_card_photo</item>
+    </integer-array>
+
+    <string-array name="data_waktu">
+        <item>17 Mei 2023</item>
+        <item>18 Mei 2023</item>
+        <item>19 Mei 2023</item>
+        <item>20 Mei 2023</item>
+        <item>21 Mei 2023</item>
+    </string-array>
 </resources>
