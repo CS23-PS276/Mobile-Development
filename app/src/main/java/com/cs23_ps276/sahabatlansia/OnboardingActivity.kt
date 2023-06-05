@@ -1,4 +1,4 @@
-package com.cs23_ps276.sahabatlansia.data
+package com.cs23_ps276.sahabatlansia
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
