@@ -12,6 +12,9 @@
         android:theme="@style/Theme.SahabatLansia"
         tools:targetApi="31">
         <activity
+            android:name=".data.OnboardingActivity"
+            android:exported="false" />
+        <activity
             android:name=".CariCaregiverActivity"
             android:exported="false" />
         <activity

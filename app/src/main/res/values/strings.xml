@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">SahabatLansia</string>
+    <string name="logo">Logo</string>
+    <string name="app_title">App Title</string>
+    <string name="app_description">App Description</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="app_version_1_0">App Version 1.0</string>
+    <string name="onboarding_image">OnBoarding Image</string>
 
     <string-array name="data_nama">
         <item>Nama Caregiver1</item>
