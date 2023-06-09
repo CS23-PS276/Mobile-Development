@@ -7,6 +7,16 @@
     <string name="register">Register</string>
     <string name="app_version_1_0">App Version 1.0</string>
     <string name="onboarding_image">OnBoarding Image</string>
+    <string name="have_account">Saya sudah memiliki akun.<font color="#088579"><b> Login</b></font></string>
+    <string name="no_account">Saya belum memiliki akun.<font color="#088579"><b> Register</b></font></string>
+    <string name="email">Email</string>
+    <string name="email_hint">Enter your Email</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="confirm_password_hint">Enter confirm password</string>
+    <string name="article">Article</string>
+    <string name="caregiver_finder">Caregiver Finder</string>
+    <string name="notification">Notifikasi</string>
 
     <string-array name="data_nama">
         <item>Nama Caregiver1</item>
@@ -39,4 +49,10 @@
         <item>20 Mei 2023</item>
         <item>21 Mei 2023</item>
     </string-array>
+    <string name="title_activity_homepage">HomepageActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_profile">Profile</string>
+    <string name="app_motto">Find your caregiver</string>
 </resources>
