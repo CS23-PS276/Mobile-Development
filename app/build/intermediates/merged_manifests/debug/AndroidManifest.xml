@@ -18,7 +18,6 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
-        android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -26,6 +25,19 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SahabatLansia" >
+        <activity
+            android:name="com.cs23_ps276.sahabatlansia.HomepageActivity"
+            android:exported="false"
+            android:label="@string/title_activity_homepage" />
+        <activity
+            android:name="com.cs23_ps276.sahabatlansia.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cs23_ps276.sahabatlansia.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cs23_ps276.sahabatlansia.OnboardingActivity"
+            android:exported="false" />
         <activity
             android:name="com.cs23_ps276.sahabatlansia.CariCaregiverActivity"
             android:exported="false" />
@@ -38,6 +50,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <profileable
+            android:enabled="true"
+            android:shell="true" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
