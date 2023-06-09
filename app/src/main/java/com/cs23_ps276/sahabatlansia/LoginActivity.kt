@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         binding.loginButton.setOnClickListener {
             if (isEmailValid() && isPasswordValid()) {
                 // Start OnBoardingActivity
-                val intent = Intent(this@LoginActivity, OnboardingActivity::class.java)
+                val intent = Intent(this@LoginActivity, HomepageActivity::class.java)
                 startActivity(intent)
             }
         }

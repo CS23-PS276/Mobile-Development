@@ -4,6 +4,10 @@ package com.cs23_ps276.sahabatlansia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,16 +24,51 @@ public final class ActivityHomepageBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView appMotto;
+
+  @NonNull
+  public final TextView appTitle;
+
+  @NonNull
+  public final TextView appVersion;
+
+  @NonNull
+  public final ImageButton articleButton;
+
+  @NonNull
+  public final ImageButton caregiverButton;
+
+  @NonNull
   public final ConstraintLayout container;
+
+  @NonNull
+  public final ImageView logo;
 
   @NonNull
   public final BottomNavigationView navView;
 
-  private ActivityHomepageBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout container, @NonNull BottomNavigationView navView) {
+  @NonNull
+  public final ImageButton notificationButton;
+
+  @NonNull
+  public final RelativeLayout relativeLayout;
+
+  private ActivityHomepageBinding(@NonNull ConstraintLayout rootView, @NonNull TextView appMotto,
+      @NonNull TextView appTitle, @NonNull TextView appVersion, @NonNull ImageButton articleButton,
+      @NonNull ImageButton caregiverButton, @NonNull ConstraintLayout container,
+      @NonNull ImageView logo, @NonNull BottomNavigationView navView,
+      @NonNull ImageButton notificationButton, @NonNull RelativeLayout relativeLayout) {
     this.rootView = rootView;
+    this.appMotto = appMotto;
+    this.appTitle = appTitle;
+    this.appVersion = appVersion;
+    this.articleButton = articleButton;
+    this.caregiverButton = caregiverButton;
     this.container = container;
+    this.logo = logo;
     this.navView = navView;
+    this.notificationButton = notificationButton;
+    this.relativeLayout = relativeLayout;
   }
 
   @Override
@@ -59,7 +98,43 @@ public final class ActivityHomepageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.appMotto;
+      TextView appMotto = ViewBindings.findChildViewById(rootView, id);
+      if (appMotto == null) {
+        break missingId;
+      }
+
+      id = R.id.appTitle;
+      TextView appTitle = ViewBindings.findChildViewById(rootView, id);
+      if (appTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.appVersion;
+      TextView appVersion = ViewBindings.findChildViewById(rootView, id);
+      if (appVersion == null) {
+        break missingId;
+      }
+
+      id = R.id.articleButton;
+      ImageButton articleButton = ViewBindings.findChildViewById(rootView, id);
+      if (articleButton == null) {
+        break missingId;
+      }
+
+      id = R.id.caregiverButton;
+      ImageButton caregiverButton = ViewBindings.findChildViewById(rootView, id);
+      if (caregiverButton == null) {
+        break missingId;
+      }
+
       ConstraintLayout container = (ConstraintLayout) rootView;
+
+      id = R.id.logo;
+      ImageView logo = ViewBindings.findChildViewById(rootView, id);
+      if (logo == null) {
+        break missingId;
+      }
 
       id = R.id.nav_view;
       BottomNavigationView navView = ViewBindings.findChildViewById(rootView, id);
@@ -67,7 +142,21 @@ public final class ActivityHomepageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomepageBinding((ConstraintLayout) rootView, container, navView);
+      id = R.id.notificationButton;
+      ImageButton notificationButton = ViewBindings.findChildViewById(rootView, id);
+      if (notificationButton == null) {
+        break missingId;
+      }
+
+      id = R.id.relativeLayout;
+      RelativeLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
+        break missingId;
+      }
+
+      return new ActivityHomepageBinding((ConstraintLayout) rootView, appMotto, appTitle,
+          appVersion, articleButton, caregiverButton, container, logo, navView, notificationButton,
+          relativeLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

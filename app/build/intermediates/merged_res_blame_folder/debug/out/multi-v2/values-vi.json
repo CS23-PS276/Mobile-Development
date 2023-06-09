@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/values-vi/values-vi.xml",
+            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-44:/values-vi/values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\8d9343f569df63b726615d18b45679d4\\transformed\\appcompat-1.6.1\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\23f987157c1fc1700a7ae63edebd135f\\transformed\\appcompat-1.6.1\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\c73afc1fa215d9ca128620a3c01802b0\\transformed\\core-1.9.0\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\f10e776829ece4f5d7841e1eaff88cf0\\transformed\\core-1.9.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\cec0ce72cf539b288205a17cf9b9ec90\\transformed\\navigation-ui-2.5.2\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,163",
-                        "endColumns": "107,112",
-                        "endOffsets": "158,271"
-                    },
-                    "to": {
-                        "startLines": "94,95",
-                        "startColumns": "4,4",
-                        "startOffsets": "7742,7850",
-                        "endColumns": "107,112",
-                        "endOffsets": "7845,7958"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\7c17ec530a582ee93364914402f6f204\\transformed\\material-1.9.0\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\74783ffc43f63c2fef5a147903bd8deb\\transformed\\material-1.9.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,6 +54,23 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,96",
                         "endColumns": "12,78,76,77,79,79,98,113,79,62,93,73,58,85,61,60,57,63,60,53,116,56,59,53,74,126,83,77,129,83,77,90,50,50,65,67,75,80,78,74,72,75,88,76,90,93,73,69,92,48,65,84,85,61,63,62,98,104,97,104,54,54,77",
                         "endOffsets": "310,3082,3159,3237,3317,3397,3496,3610,3690,3753,3847,3921,3980,4066,4128,4189,4247,4311,4372,4426,4543,4600,4660,4714,4789,4916,5000,5078,5208,5292,5370,5461,5512,5563,5629,5697,5773,5854,5933,6008,6081,6157,6246,6323,6414,6508,6582,6652,6745,6794,6860,6945,7031,7093,7157,7220,7319,7424,7522,7627,7682,7737,8036"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\bac1ae06e83f2c46e6195a7aa1198936\\transformed\\navigation-ui-2.5.2\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,112",
+                        "endOffsets": "158,271"
+                    },
+                    "to": {
+                        "startLines": "94,95",
+                        "startColumns": "4,4",
+                        "startOffsets": "7742,7850",
+                        "endColumns": "107,112",
+                        "endOffsets": "7845,7958"
                     }
                 }
             ]

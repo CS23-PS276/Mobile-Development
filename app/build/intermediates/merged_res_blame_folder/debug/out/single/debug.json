@@ -1,170 +1,186 @@
 [
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/ic_dashboard_black_24dp.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_rounded_corner_background.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/rounded_corner_background.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_activity_onboarding.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/activity_onboarding.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_activity_cari_caregiver.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_cari_caregiver.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_fragment_profile.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/fragment_profile.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_history_card.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/history_card.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_activity_cari_caregiver.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/activity_cari_caregiver.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_ic_profile_black_24dp.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/ic_profile_black_24dp.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_onboarding_photo.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/onboarding_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_activity_onboarding.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_onboarding.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_activity_homepage.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/activity_homepage.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_activity_register.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_register.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_activity_history.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/activity_history.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_vertical_line.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/vertical_line.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_logo_photo.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/logo_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_article_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/article_photo.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_fragment_history.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/fragment_history.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_fragment_home.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_activity_main.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/activity_main.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/navigation_mobile_navigation.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/menu/bottom_nav_menu.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_logo_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/logo_photo.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_ic_setting_black_24dp.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/ic_setting_black_24dp.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_activity_register.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/activity_register.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/xml_backup_rules.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/xml/backup_rules.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_onboarding_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/onboarding_photo.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_activity_login.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/activity_login.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_activity_homepage.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_homepage.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_activity_history.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_history.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_activity_detail_caregiver.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_detail_caregiver.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/xml_data_extraction_rules.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/xml/data_extraction_rules.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/ic_launcher_background.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_caregiver_card.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/caregiver_card.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_fragment_setting.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/fragment_setting.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/ic_notifications_black_24dp.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/navigation_mobile_navigation.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/navigation/mobile_navigation.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_fragment_profile.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_activity_login.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_login.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_caregiver_detai_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/caregiver_detai_photo.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_ic_history_black_24dp.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/ic_history_black_24dp.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_vertical_line.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/vertical_line.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_caregiver_card.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/caregiver_card.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_ic_home_black_24dp.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/ic_home_black_24dp.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_caregiver_card_photo.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/caregiver_card_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_history_card.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/history_card.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_fragment_home.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/fragment_home.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_fragment_history.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/fragment_history.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_activity_detail_caregiver.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/activity_detail_caregiver.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/layout_fragment_notifications.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/layout/fragment_notifications.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/ic_home_black_24dp.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_rounded_corner_background.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/rounded_corner_background.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-47:/drawable_caregiver_detai_photo.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-49:/drawable/caregiver_detai_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_caregiver_card_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/caregiver_card_photo.png"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_caregiver_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/caregiver_photo.png"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/drawable_notifikasi_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/drawable/notifikasi_photo.png"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_main.xml"
     }
 ]
