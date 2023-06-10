@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.cs23_ps276.sahabatlansia.CariCaregiverActivity
 import com.cs23_ps276.sahabatlansia.R
 import com.cs23_ps276.sahabatlansia.databinding.FragmentHomeBinding
-import com.cs23_ps276.sahabatlansia.ui.notification.NotificationActivity
 
 class HomeFragment : Fragment() {
 
@@ -40,13 +39,13 @@ class HomeFragment : Fragment() {
         }
 
         binding.articleButton.setOnClickListener {
-//            val intent = Intent(activity, NotificationActivity::class.java)
-//            startActivity(intent)
+            //val intent = Intent(activity, ArticleActivity::class.java)
+            //startActivity(intent)
         }
 
         binding.notificationButton.setOnClickListener {
-            val intent = Intent(activity, NotificationActivity::class.java)
-            startActivity(intent)
+            //val intent = Intent(activity, NotifikasiActivity::class.java)
+            //startActivity(intent)
         }
 
         return root
