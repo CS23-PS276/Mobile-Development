@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\lenovo\.gradle\caches\transforms-3\0b639c4f3b3e2f9f22ab5b5410c9e8c8\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.2] C:\Users\lenovo\.gradle\caches\transforms-3\b7a186f9c5e07afe32213fe6470b568e\transformed\navigation-ui-ktx-2.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.2] C:\Users\lenovo\.gradle\caches\transforms-3\cec0ce72cf539b288205a17cf9b9ec90\transformed\navigation-ui-2.5.2\AndroidManifest.xml:17:1-24:12
@@ -62,28 +62,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lenovo\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\2ff53fee4bc33a1da5cdbfe55cfab510\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\a21766c7c1a00190a294c68fee7e28e6\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\9fae957ef0e1266a83e5188cb210102e\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:5:5-39:19
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:5:5-39:19
+ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:5:5-36:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\7c17ec530a582ee93364914402f6f204\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\7c17ec530a582ee93364914402f6f204\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lenovo\.gradle\caches\transforms-3\fe5722c2d28764b765710ac6c318c6e8\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -100,7 +99,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\le
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-3\b4e080daf9c24dca88ead6ef595a4d7e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-3\bdeac150b6ce0fcc7996d2b9a9f9c390\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-3\bdeac150b6ce0fcc7996d2b9a9f9c390\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:5:5-39:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
@@ -109,10 +107,6 @@ INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\m
 		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:10:9-41
 	android:fullBackupContent
 		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:8:9-54
-	android:testOnly
-		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:5:5-39:19
-		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
 	tools:targetApi
 		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:13:9-29
 	android:icon
@@ -143,48 +137,28 @@ ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main
 		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
 		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:22:13-42
-activity#com.cs23_ps276.sahabatlansia.OnboardingActivity
+activity#com.cs23_ps276.sahabatlansia.CariCaregiverActivity
 ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:25:13-47
-activity#com.cs23_ps276.sahabatlansia.CariCaregiverActivity
-ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:27:9-29:40
+		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:25:13-50
+activity#com.cs23_ps276.sahabatlansia.OnboardingActivity
+ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:exported
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:28:13-50
-activity#com.cs23_ps276.sahabatlansia.HistoryActivity
-ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:30:9-38:20
-	android:exported
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:32:13-36
-	android:name
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:31:13-44
+		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:28:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:36:27-74
-profileable
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml reason: profileable injection requested
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-	android:enabled
-		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-	android:shell
-		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\lenovo\AndroidStudioProjects\Mobile-Development\app\src\main\AndroidManifest.xml

@@ -18,6 +18,7 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -36,13 +37,10 @@
             android:name="com.cs23_ps276.sahabatlansia.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.cs23_ps276.sahabatlansia.OnboardingActivity"
-            android:exported="false" />
-        <activity
             android:name="com.cs23_ps276.sahabatlansia.CariCaregiverActivity"
             android:exported="false" />
         <activity
-            android:name="com.cs23_ps276.sahabatlansia.HistoryActivity"
+            android:name="com.cs23_ps276.sahabatlansia.OnboardingActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,10 +48,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <profileable
-            android:enabled="true"
-            android:shell="true" />
 
         <uses-library
             android:name="androidx.window.extensions"

@@ -4,10 +4,12 @@ package com.cs23_ps276.sahabatlansia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.cs23_ps276.sahabatlansia.R;
@@ -20,12 +22,21 @@ public final class FragmentHistoryBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textHistory;
+  public final RelativeLayout relativeLayout;
+
+  @NonNull
+  public final RecyclerView rvHistory;
+
+  @NonNull
+  public final TextView textView7;
 
   private FragmentHistoryBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textHistory) {
+      @NonNull RelativeLayout relativeLayout, @NonNull RecyclerView rvHistory,
+      @NonNull TextView textView7) {
     this.rootView = rootView;
-    this.textHistory = textHistory;
+    this.relativeLayout = relativeLayout;
+    this.rvHistory = rvHistory;
+    this.textView7 = textView7;
   }
 
   @Override
@@ -55,13 +66,26 @@ public final class FragmentHistoryBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_history;
-      TextView textHistory = ViewBindings.findChildViewById(rootView, id);
-      if (textHistory == null) {
+      id = R.id.relativeLayout;
+      RelativeLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
         break missingId;
       }
 
-      return new FragmentHistoryBinding((ConstraintLayout) rootView, textHistory);
+      id = R.id.rv_history;
+      RecyclerView rvHistory = ViewBindings.findChildViewById(rootView, id);
+      if (rvHistory == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
+      return new FragmentHistoryBinding((ConstraintLayout) rootView, relativeLayout, rvHistory,
+          textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

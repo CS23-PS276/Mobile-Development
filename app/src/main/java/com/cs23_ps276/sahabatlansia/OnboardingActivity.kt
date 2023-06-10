@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.cs23_ps276.sahabatlansia.databinding.ActivityOnboardingBinding
 
-class OnBoardingActivity : AppCompatActivity() {
+class OnboardingActivity : AppCompatActivity() {
     private lateinit var binding: ActivityOnboardingBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,13 +16,13 @@ class OnBoardingActivity : AppCompatActivity() {
 
         binding.loginButton.setOnClickListener {
             // Start LoginActivity
-            val intent = Intent(this@OnBoardingActivity, LoginActivity::class.java)
+            val intent = Intent(this@OnboardingActivity, LoginActivity::class.java)
             startActivity(intent)
         }
 
         binding.registerButton.setOnClickListener {
             // Start RegisterActivity
-            val intent = Intent(this@OnBoardingActivity, RegisterActivity::class.java)
+            val intent = Intent(this@OnboardingActivity, RegisterActivity::class.java)
             startActivity(intent)
         }
     }

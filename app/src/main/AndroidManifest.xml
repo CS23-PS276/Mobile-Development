@@ -22,13 +22,10 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".OnboardingActivity"
-            android:exported="false" />
-        <activity
             android:name=".CariCaregiverActivity"
             android:exported="false" />
         <activity
-            android:name=".HistoryActivity"
+            android:name=".OnboardingActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
