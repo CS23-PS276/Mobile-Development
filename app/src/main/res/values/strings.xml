@@ -1,8 +1,6 @@
 <resources>
-    <string name="app_name">SahabatLansia</string>
+    <string name="app_name">Sahabat Lansia</string>
     <string name="logo">Logo</string>
-    <string name="app_title">App Title</string>
-    <string name="app_description">App Description</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="app_version_1_0">App Version 1.0</string>
@@ -10,7 +8,7 @@
     <string name="have_account">Saya sudah memiliki akun.<font color="#088579"><b> Login</b></font></string>
     <string name="no_account">Saya belum memiliki akun.<font color="#088579"><b> Register</b></font></string>
     <string name="email">Email</string>
-    <string name="email_hint">Enter your Email</string>
+    <string name="email_hint">Enter your email</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="password_hint">Enter your password</string>
@@ -56,4 +54,8 @@
     <string name="title_setting">Setting</string>
     <string name="title_profile">Profile</string>
     <string name="app_motto">Find your caregiver</string>
+    <string name="profile">Profile</string>
+    <string name="simpan">Simpan</string>
+    <string name="history">History</string>
+    <string name="setting">Setting</string>
 </resources>
