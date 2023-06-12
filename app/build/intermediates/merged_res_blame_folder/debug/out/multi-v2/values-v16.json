@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-44:/values-v16/values-v16.xml",
+            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\23f987157c1fc1700a7ae63edebd135f\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\f10e776829ece4f5d7841e1eaff88cf0\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\0f6ecaba8231f15e5dab5756efdca1a1\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

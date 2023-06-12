@@ -1,58 +1,78 @@
 [
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/activity_login.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_login.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_register.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_register.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/fragment_setting.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/fragment_setting.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/fragment_setting.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/fragment_setting.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/history_card.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/history_card.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_notification.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_notification.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/fragment_history.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/fragment_history.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/history_card.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/history_card.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/fragment_home.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/fragment_home.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/caregiver_card.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/caregiver_card.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/activity_main.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_main.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/fragment_create_task.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/fragment_create_task.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/activity_history.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_history.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/fragment_profile.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/activity_detail_caregiver.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_detail_caregiver.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/fragment_history.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/fragment_history.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/activity_onboarding.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_onboarding.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_cari_caregiver.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_cari_caregiver.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/activity_register.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_register.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_alarm.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_alarm.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/caregiver_card.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/caregiver_card.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_login.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_login.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/activity_homepage.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_homepage.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/fragment_home.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/activity_cari_caregiver.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/activity_cari_caregiver.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/dialog_completed_theme.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/dialog_completed_theme.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-45:/layout/fragment_profile.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-48:/layout/fragment_profile.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/fragment_calendar_view.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/fragment_calendar_view.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_homepage.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_homepage.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_main.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_detail_caregiver.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_detail_caregiver.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/item_task.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-56:/layout/activity_onboarding.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/layout/activity_onboarding.xml"
     }
 ]

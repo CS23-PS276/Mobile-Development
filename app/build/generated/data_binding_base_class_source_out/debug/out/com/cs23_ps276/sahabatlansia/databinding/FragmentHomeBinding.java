@@ -4,6 +4,9 @@ package com.cs23_ps276.sahabatlansia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,11 +23,42 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textHome;
+  public final TextView appMotto;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textHome) {
+  @NonNull
+  public final TextView appTitle;
+
+  @NonNull
+  public final TextView appVersion;
+
+  @NonNull
+  public final ImageButton articleButton;
+
+  @NonNull
+  public final ImageButton caregiverButton;
+
+  @NonNull
+  public final ImageView logo;
+
+  @NonNull
+  public final ImageButton notificationButton;
+
+  @NonNull
+  public final RelativeLayout relativeLayout;
+
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView appMotto,
+      @NonNull TextView appTitle, @NonNull TextView appVersion, @NonNull ImageButton articleButton,
+      @NonNull ImageButton caregiverButton, @NonNull ImageView logo,
+      @NonNull ImageButton notificationButton, @NonNull RelativeLayout relativeLayout) {
     this.rootView = rootView;
-    this.textHome = textHome;
+    this.appMotto = appMotto;
+    this.appTitle = appTitle;
+    this.appVersion = appVersion;
+    this.articleButton = articleButton;
+    this.caregiverButton = caregiverButton;
+    this.logo = logo;
+    this.notificationButton = notificationButton;
+    this.relativeLayout = relativeLayout;
   }
 
   @Override
@@ -54,13 +88,56 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_home;
-      TextView textHome = ViewBindings.findChildViewById(rootView, id);
-      if (textHome == null) {
+      id = R.id.appMotto;
+      TextView appMotto = ViewBindings.findChildViewById(rootView, id);
+      if (appMotto == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, textHome);
+      id = R.id.appTitle;
+      TextView appTitle = ViewBindings.findChildViewById(rootView, id);
+      if (appTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.appVersion;
+      TextView appVersion = ViewBindings.findChildViewById(rootView, id);
+      if (appVersion == null) {
+        break missingId;
+      }
+
+      id = R.id.articleButton;
+      ImageButton articleButton = ViewBindings.findChildViewById(rootView, id);
+      if (articleButton == null) {
+        break missingId;
+      }
+
+      id = R.id.caregiverButton;
+      ImageButton caregiverButton = ViewBindings.findChildViewById(rootView, id);
+      if (caregiverButton == null) {
+        break missingId;
+      }
+
+      id = R.id.logo;
+      ImageView logo = ViewBindings.findChildViewById(rootView, id);
+      if (logo == null) {
+        break missingId;
+      }
+
+      id = R.id.notificationButton;
+      ImageButton notificationButton = ViewBindings.findChildViewById(rootView, id);
+      if (notificationButton == null) {
+        break missingId;
+      }
+
+      id = R.id.relativeLayout;
+      RelativeLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ConstraintLayout) rootView, appMotto, appTitle, appVersion,
+          articleButton, caregiverButton, logo, notificationButton, relativeLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -8,106 +8,6 @@
     android:paddingTop="?attr/actionBarSize"
     android:background="#088579">
 
-    <!-- Shape with rounded corners -->
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="411dp"
-        android:layout_height="618dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/rounded_corner_background"
-        app:layout_constraintBottom_toBottomOf="@+id/nav_view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <!-- Logo -->
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:contentDescription="@string/logo"
-            android:src="@drawable/logo_photo" />
-
-        <!-- Title of the App -->
-        <TextView
-            android:id="@+id/appTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/logo"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
-            android:text="@string/app_title"
-            android:textColor="#092C52"
-            android:textSize="18sp" />
-
-        <!-- First Button -->
-        <ImageButton
-            android:id="@+id/caregiverButton"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_below="@id/appTitle"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="16dp"
-            android:background="@color/teal_700"
-            android:contentDescription="@string/caregiver_finder"
-            android:src="@drawable/caregiver_photo" />
-
-        <!-- Second Button -->
-        <ImageButton
-            android:id="@+id/articleButton"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_below="@id/appTitle"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:layout_toEndOf="@id/caregiverButton"
-            android:background="@color/teal_700"
-            android:contentDescription="@string/article"
-            android:src="@drawable/article_photo" />
-
-        <!-- Third Button -->
-        <ImageButton
-            android:id="@+id/notificationButton"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_below="@id/appTitle"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:layout_toEndOf="@id/articleButton"
-            android:background="@color/teal_700"
-            android:contentDescription="@string/notification"
-            android:src="@drawable/notifikasi_photo" />
-
-    </RelativeLayout>
-
-    <!-- App Version -->
-    <TextView
-        android:id="@+id/appMotto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_motto"
-        android:layout_marginBottom="5dp"
-        android:textColor="@color/blue"
-        app:layout_constraintBottom_toTopOf="@+id/appVersion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
-
-    <!-- App Version -->
-    <TextView
-        android:id="@+id/appVersion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:text="@string/app_version_1_0"
-        android:textColor="@color/blue"
-        app:layout_constraintBottom_toTopOf="@+id/nav_view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
         android:layout_width="0dp"
@@ -120,7 +20,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_nav_menu"/>
 
-        <fragment
+    <fragment
         android:id="@+id/nav_host_fragment_activity_homepage"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
@@ -131,6 +31,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation"
-    />
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

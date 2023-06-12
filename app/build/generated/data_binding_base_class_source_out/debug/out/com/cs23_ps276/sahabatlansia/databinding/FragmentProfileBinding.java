@@ -4,6 +4,7 @@ package com.cs23_ps276.sahabatlansia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,12 +21,16 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textProfile;
+  public final RelativeLayout relativeLayout;
+
+  @NonNull
+  public final TextView textView6;
 
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textProfile) {
+      @NonNull RelativeLayout relativeLayout, @NonNull TextView textView6) {
     this.rootView = rootView;
-    this.textProfile = textProfile;
+    this.relativeLayout = relativeLayout;
+    this.textView6 = textView6;
   }
 
   @Override
@@ -55,13 +60,19 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_profile;
-      TextView textProfile = ViewBindings.findChildViewById(rootView, id);
-      if (textProfile == null) {
+      id = R.id.relativeLayout;
+      RelativeLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, textProfile);
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((ConstraintLayout) rootView, relativeLayout, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
