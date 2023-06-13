@@ -8,9 +8,7 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.cs23_ps276.sahabatlansia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -31,7 +29,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.SahabatLansia" >
         <activity
-            android:name="com.cs23_ps276.sahabatlansia.ui.notification.AlarmActivity"
+            android:name="com.cs23_ps276.sahabatlansia.ArticleDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cs23_ps276.sahabatlansia.ArticleActivity"
             android:exported="false" />
         <activity
             android:name="com.cs23_ps276.sahabatlansia.HomepageActivity"
@@ -47,7 +48,7 @@
             android:name="com.cs23_ps276.sahabatlansia.CariCaregiverActivity"
             android:exported="false" />
         <activity
-            android:name="com.cs23_ps276.sahabatlansia.ui.notification.NotificationActivity"
+            android:name="com.cs23_ps276.sahabatlansia.OnboardingActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,27 +56,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <receiver
-            android:name="com.cs23_ps276.sahabatlansia.ui.notification.broadcastReceiver.AlarmBroadcastReceiver"
-            android:enabled="false"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="com.zubair.alarmmanager.receivers.BootCompleteReceiver"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="com.cs23_ps276.sahabatlansia.ui.notification.broadcastReceiver.AlarmService"
-            android:enabled="true"
-            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -98,11 +78,6 @@
         <uses-library
             android:name="androidx.window.sidecar"
             android:required="false" />
-
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
-            android:exported="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

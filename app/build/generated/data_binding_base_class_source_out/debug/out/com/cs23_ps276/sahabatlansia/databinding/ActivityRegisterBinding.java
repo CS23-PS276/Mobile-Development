@@ -35,6 +35,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextInputEditText edPassword;
 
   @NonNull
+  public final TextInputEditText edUsername;
+
+  @NonNull
   public final TextView email;
 
   @NonNull
@@ -58,18 +61,26 @@ public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   public final TextInputLayout tilPassword;
 
+  @NonNull
+  public final TextInputLayout tilUsername;
+
+  @NonNull
+  public final TextView username;
+
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView confirmPassword, @NonNull TextInputEditText edConfirmPassword,
       @NonNull TextInputEditText edEmail, @NonNull TextInputEditText edPassword,
-      @NonNull TextView email, @NonNull TextView haveAccount, @NonNull TextView password,
-      @NonNull Button registerButton, @NonNull TextView textView4,
+      @NonNull TextInputEditText edUsername, @NonNull TextView email, @NonNull TextView haveAccount,
+      @NonNull TextView password, @NonNull Button registerButton, @NonNull TextView textView4,
       @NonNull TextInputLayout tilConfirmPassword, @NonNull TextInputLayout tilEmail,
-      @NonNull TextInputLayout tilPassword) {
+      @NonNull TextInputLayout tilPassword, @NonNull TextInputLayout tilUsername,
+      @NonNull TextView username) {
     this.rootView = rootView;
     this.confirmPassword = confirmPassword;
     this.edConfirmPassword = edConfirmPassword;
     this.edEmail = edEmail;
     this.edPassword = edPassword;
+    this.edUsername = edUsername;
     this.email = email;
     this.haveAccount = haveAccount;
     this.password = password;
@@ -78,6 +89,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
     this.tilConfirmPassword = tilConfirmPassword;
     this.tilEmail = tilEmail;
     this.tilPassword = tilPassword;
+    this.tilUsername = tilUsername;
+    this.username = username;
   }
 
   @Override
@@ -131,6 +144,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.ed_username;
+      TextInputEditText edUsername = ViewBindings.findChildViewById(rootView, id);
+      if (edUsername == null) {
+        break missingId;
+      }
+
       id = R.id.email;
       TextView email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
@@ -179,9 +198,22 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.til_username;
+      TextInputLayout tilUsername = ViewBindings.findChildViewById(rootView, id);
+      if (tilUsername == null) {
+        break missingId;
+      }
+
+      id = R.id.username;
+      TextView username = ViewBindings.findChildViewById(rootView, id);
+      if (username == null) {
+        break missingId;
+      }
+
       return new ActivityRegisterBinding((ConstraintLayout) rootView, confirmPassword,
-          edConfirmPassword, edEmail, edPassword, email, haveAccount, password, registerButton,
-          textView4, tilConfirmPassword, tilEmail, tilPassword);
+          edConfirmPassword, edEmail, edPassword, edUsername, email, haveAccount, password,
+          registerButton, textView4, tilConfirmPassword, tilEmail, tilPassword, tilUsername,
+          username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
-    <array name="material_calendar_day_abbreviations_array">
-        <item>@string/material_calendar_sunday</item>
-        <item>@string/material_calendar_monday</item>
-        <item>@string/material_calendar_tuesday</item>
-        <item>@string/material_calendar_wednesday</item>
-        <item>@string/material_calendar_thursday</item>
-        <item>@string/material_calendar_friday</item>
-        <item>@string/material_calendar_saturday</item>
-    </array>
-    <array name="material_calendar_months_array">
-        <item>Gennaio</item>
-        <item>Febbraio</item>
-        <item>Marzo</item>
-        <item>Aprile</item>
-        <item>Maggio</item>
-        <item>Giugno</item>
-        <item>Luglio</item>
-        <item>Agosto</item>
-        <item>Settembre</item>
-        <item>Ottobre</item>
-        <item>Novembre</item>
-        <item>Dicembre</item>
-    </array>
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d nuova notifica</item>
     <item quantity="other">%d nuove notifiche</item>
@@ -73,16 +50,6 @@
     <string name="exposed_dropdown_menu_content_description">Mostra il menu a discesa</string>
     <string name="icon_content_description">Icona della finestra di dialogo</string>
     <string name="item_view_role_description">Scheda</string>
-    <string name="material_calendar_friday">V</string>
-    <string name="material_calendar_monday">L</string>
-    <string name="material_calendar_negative_button">Annulla</string>
-    <string name="material_calendar_positive_button">OK</string>
-    <string name="material_calendar_saturday">S</string>
-    <string name="material_calendar_sunday">D</string>
-    <string name="material_calendar_thursday">G</string>
-    <string name="material_calendar_today_button">Oggi</string>
-    <string name="material_calendar_tuesday">M</string>
-    <string name="material_calendar_wednesday">M</string>
     <string name="material_clock_toggle_content_description">Seleziona AM o PM</string>
     <string name="material_hour_24h_suffix">%1$s ore</string>
     <string name="material_hour_selection">Seleziona l\'ora</string>
