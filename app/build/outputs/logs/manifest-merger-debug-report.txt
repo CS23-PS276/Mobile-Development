@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\User\.gradle\caches\transforms-3\79000b79ee7ed049ee447dbb7bd96b74\transformed\jetified-viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\User\.gradle\caches\transforms-3\1f15026230d3265630deb74af2467c9f\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Users\User\.gradle\caches\transforms-3\b24e816fc82cd3e11b399cd5a9a2d4eb\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -79,31 +79,43 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\.gradle\caches\transforms-3\8f8b2c14773c3a0dd79484c6d1dfb6dd\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\59964f5129d91ee0e7e67ec31552fe64\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\User\.gradle\caches\transforms-3\36edffe1d948460f3d6c628f738e71ac\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
 	package
 		INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-61:12
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:5:5-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:5:22-74
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:6:5-57:19
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:10:5-67:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\User\.gradle\caches\transforms-3\74783ffc43f63c2fef5a147903bd8deb\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\User\.gradle\caches\transforms-3\74783ffc43f63c2fef5a147903bd8deb\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\User\.gradle\caches\transforms-3\b978021efdacfbf8d20b5189ba2f3be1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -137,107 +149,111 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] C:\Users\User\.gradle\caches\transforms-3\0f6ecaba8231f15e5dab5756efdca1a1\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:15:9-41
 	android:fullBackupContent
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:13:9-51
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:17:9-51
 	android:dataExtractionRules
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:8:9-65
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:12:9-65
+activity#com.cs23_ps276.sahabatlansia.RekomendationActivity
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:20:13-50
 activity#com.cs23_ps276.sahabatlansia.ui.notification.AlarmActivity
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:15:9-17:40
-	android:exported
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:17:13-37
-	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:16:13-58
-activity#com.cs23_ps276.sahabatlansia.HomepageActivity
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:18:9-21:63
-	android:label
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:21:13-60
-	android:exported
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:20:13-37
-	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:19:13-45
-activity#com.cs23_ps276.sahabatlansia.RegisterActivity
 ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
 		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:23:13-45
-activity#com.cs23_ps276.sahabatlansia.LoginActivity
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:23:13-58
+activity#com.cs23_ps276.sahabatlansia.ui.notification.NotificationActivity
 ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
 		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:26:13-42
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:26:13-65
+activity#com.cs23_ps276.sahabatlansia.HomepageActivity
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:28:9-31:63
+	android:label
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:31:13-60
+	android:exported
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:29:13-45
+activity#com.cs23_ps276.sahabatlansia.RegisterActivity
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:33:13-45
+activity#com.cs23_ps276.sahabatlansia.LoginActivity
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:36:13-42
 activity#com.cs23_ps276.sahabatlansia.CariCaregiverActivity
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:29:9-31:40
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:30:13-50
-activity#com.cs23_ps276.sahabatlansia.ui.notification.NotificationActivity
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:32:9-40:20
-	android:exported
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:34:13-36
-	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:33:13-65
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:35:13-39:29
-action#android.intent.action.MAIN
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:36:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:38:17-77
-	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:38:27-74
-receiver#com.cs23_ps276.sahabatlansia.ui.notification.broadcastReceiver.AlarmBroadcastReceiver
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:41:9-47:20
-	android:enabled
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:39:13-50
+activity#com.cs23_ps276.sahabatlansia.OnboardingActivity
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:41:9-49:20
 	android:exported
 		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:41:19-91
-intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:44:9-46:25
-action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:45:13-75
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:42:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:45:21-72
-receiver#com.zubair.alarmmanager.receivers.BootCompleteReceiver
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:48:9-52:20
-MERGED from [com.github.zubairehman:AlarmManager:v1.2.0-alpha01] C:\Users\User\.gradle\caches\transforms-3\eaa77acf07b45ecdd667b996df1cc8a1\transformed\jetified-AlarmManager-v1.2.0-alpha01\AndroidManifest.xml:14:9-18:20
-MERGED from [com.github.zubairehman:AlarmManager:v1.2.0-alpha01] C:\Users\User\.gradle\caches\transforms-3\eaa77acf07b45ecdd667b996df1cc8a1\transformed\jetified-AlarmManager-v1.2.0-alpha01\AndroidManifest.xml:14:9-18:20
-	android:exported
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:50:13-36
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:49:13-82
-service#com.cs23_ps276.sahabatlansia.ui.notification.broadcastReceiver.AlarmService
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:54:9-56:38
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:47:27-74
+receiver#com.cs23_ps276.sahabatlansia.ui.notification.broadcastReceiver.AlarmBroadcastReceiver
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:51:9-58:20
 	android:enabled
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:55:13-35
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:53:13-36
 	android:exported
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:54:18-80
-uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:58:5-68
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:52:13-85
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:55:13-57:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:56:17-79
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:58:22-65
-uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:59:5-81
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:56:25-76
+receiver#com.zubair.alarmmanager.receivers.BootCompleteReceiver
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:59:9-61:48
+MERGED from [com.github.zubairehman:AlarmManager:v1.2.0-alpha01] C:\Users\User\.gradle\caches\transforms-3\eaa77acf07b45ecdd667b996df1cc8a1\transformed\jetified-AlarmManager-v1.2.0-alpha01\AndroidManifest.xml:14:9-18:20
+MERGED from [com.github.zubairehman:AlarmManager:v1.2.0-alpha01] C:\Users\User\.gradle\caches\transforms-3\eaa77acf07b45ecdd667b996df1cc8a1\transformed\jetified-AlarmManager-v1.2.0-alpha01\AndroidManifest.xml:14:9-18:20
+	android:exported
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:61:13-36
 	android:name
-		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:59:22-78
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:60:13-82
+service#com.cs23_ps276.sahabatlansia.ui.notification.broadcastReceiver.AlarmService
+ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:63:9-66:39
+	android:enabled
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:65:13-35
+	android:exported
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml:64:13-75
 uses-sdk
 INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\SahabatLansia\app\src\main\AndroidManifest.xml

@@ -1,4 +1,4 @@
-#Mon Jun 12 21:56:38 WIB 2023
+#Tue Jun 13 23:03:31 WIB 2023
 base.0=D\:\\SEMESTER 6\\BANGKIT\\CAPSTONE_PROJECT\\SahabatLansia\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\SEMESTER 6\\BANGKIT\\CAPSTONE_PROJECT\\SahabatLansia\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=D\:\\SEMESTER 6\\BANGKIT\\CAPSTONE_PROJECT\\SahabatLansia\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex

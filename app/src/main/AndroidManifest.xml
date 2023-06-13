@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SahabatLansia"
         tools:targetApi="31">
+        <activity
+            android:name=".RekomendationActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.notification.AlarmActivity"
             android:exported="false" />
@@ -28,7 +35,6 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-
         <activity
             android:name=".CariCaregiverActivity"
             android:exported="false" />
@@ -41,24 +47,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".ui.notification.broadcastReceiver.AlarmBroadcastReceiver"
+
+        <receiver
+            android:name=".ui.notification.broadcastReceiver.AlarmBroadcastReceiver"
             android:enabled="false"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.BOOT_COMPLETED" />
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
         </receiver>
         <receiver
             android:name="com.zubair.alarmmanager.receivers.BootCompleteReceiver"
-            android:exported="true">
+            android:exported="true"></receiver>
 
-        </receiver>
-
-        <service android:name=".ui.notification.broadcastReceiver.AlarmService"
+        <service
+            android:name=".ui.notification.broadcastReceiver.AlarmService"
             android:enabled="true"
-            android:exported="true"/>
+            android:exported="true" />
     </application>
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
 </manifest>

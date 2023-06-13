@@ -8,6 +8,7 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -31,7 +32,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.SahabatLansia" >
         <activity
+            android:name="com.cs23_ps276.sahabatlansia.RekomendationActivity"
+            android:exported="false" />
+        <activity
             android:name="com.cs23_ps276.sahabatlansia.ui.notification.AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cs23_ps276.sahabatlansia.ui.notification.NotificationActivity"
             android:exported="false" />
         <activity
             android:name="com.cs23_ps276.sahabatlansia.HomepageActivity"
@@ -47,7 +54,7 @@
             android:name="com.cs23_ps276.sahabatlansia.CariCaregiverActivity"
             android:exported="false" />
         <activity
-            android:name="com.cs23_ps276.sahabatlansia.ui.notification.NotificationActivity"
+            android:name="com.cs23_ps276.sahabatlansia.OnboardingActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
