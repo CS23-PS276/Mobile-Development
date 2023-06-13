@@ -16,13 +16,6 @@
     <string name="article">Article</string>
     <string name="caregiver_finder">Caregiver Finder</string>
     <string name="notification">Notifikasi</string>
-    <string name="delete_confirmation">Confirmation</string>
-    <string name="sureToDelete">Are you sure you want to delete the task</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="confirmation">Completed the task!..</string>
-    <string name="sureToMarkAsComplete">Are you sure you want to mark this task as completed.</string>
-    <string name="congrats_you_have_completed_the_task_successfully">Congrats!... You have completed the task successfully..</string>
 
     <string-array name="data_nama">
         <item>Nama Caregiver1</item>
@@ -65,4 +58,9 @@
     <string name="simpan">Simpan</string>
     <string name="history">History</string>
     <string name="setting">Setting</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="search">Search</string>
+    <string name="article_hint">Enter Article Title</string>
+    <string name="searchButton">Get Article Recommendation</string>
 </resources>
