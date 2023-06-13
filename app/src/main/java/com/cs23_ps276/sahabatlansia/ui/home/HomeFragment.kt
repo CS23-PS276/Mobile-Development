@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.cs23_ps276.sahabatlansia.ArticleActivity
 import com.cs23_ps276.sahabatlansia.CariCaregiverActivity
 import com.cs23_ps276.sahabatlansia.R
 import com.cs23_ps276.sahabatlansia.databinding.FragmentHomeBinding
@@ -39,8 +40,8 @@ class HomeFragment : Fragment() {
         }
 
         binding.articleButton.setOnClickListener {
-            //val intent = Intent(activity, ArticleActivity::class.java)
-            //startActivity(intent)
+            val intent = Intent(activity, ArticleActivity::class.java)
+            startActivity(intent)
         }
 
         binding.notificationButton.setOnClickListener {

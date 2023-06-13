@@ -5,11 +5,38 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Patterns
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.cs23_ps276.sahabatlansia.api.ApiService
+import com.cs23_ps276.sahabatlansia.api.LoginRequest
+import com.cs23_ps276.sahabatlansia.api.LoginResponse
 import com.cs23_ps276.sahabatlansia.databinding.ActivityLoginBinding
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
+    private val apiService: ApiService by lazy {
+        val loggingInterceptor = HttpLoggingInterceptor()
+        loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
+
+        val client = OkHttpClient.Builder()
+            .addInterceptor(loggingInterceptor)
+            .build()
+
+        val retrofit = Retrofit.Builder()
+            .baseUrl("https://capstone-project-c23-ps276.et.r.appspot.com")
+            .addConverterFactory(GsonConverterFactory.create())
+            .client(client) // Set the OkHttpClient with the logging interceptor
+            .build()
+
+        retrofit.create(ApiService::class.java)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,9 +92,11 @@ class LoginActivity : AppCompatActivity() {
 
         binding.loginButton.setOnClickListener {
             if (isEmailValid() && isPasswordValid()) {
-                // Start OnBoardingActivity
-                val intent = Intent(this@LoginActivity, HomepageActivity::class.java)
-                startActivity(intent)
+                val email = binding.edEmail.text.toString().trim()
+                val password = binding.edPassword.text.toString().trim()
+
+                val request = LoginRequest(email, password)
+                loginUser(request)
             }
         }
 
@@ -77,8 +106,6 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-
-
 
     private fun isEmailValid(): Boolean {
         val email = binding.edEmail.text.toString().trim()
@@ -105,6 +132,37 @@ class LoginActivity : AppCompatActivity() {
             binding.edPassword.error = null
             true
         }
+    }
+
+    private fun loginUser(request: LoginRequest) {
+        apiService.login(request).enqueue(object : Callback<LoginResponse> {
+            override fun onResponse(call: Call<LoginResponse>, response: Response<LoginResponse>) {
+                if (response.isSuccessful) {
+                    val loginResponse = response.body()
+                    if (loginResponse?.statusCode == 200) {
+                        // Handle successful login
+                        Toast.makeText(this@LoginActivity, "Login Successful", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(this@LoginActivity, HomepageActivity::class.java)
+                        startActivity(intent)
+                    } else {
+                        // Handle login failure with incorrect credentials
+                        Toast.makeText(this@LoginActivity, "Invalid email or password", Toast.LENGTH_SHORT).show()
+                    }
+                } else {
+                    // Handle login failure due to other reasons (e.g., server error)
+                    Toast.makeText(this@LoginActivity, "Login Failed", Toast.LENGTH_SHORT).show()
+                }
+            }
+
+
+            override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
+                Toast.makeText(
+                    this@LoginActivity,
+                    "Network Failure: ${t.message}",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+        })
     }
 }
 

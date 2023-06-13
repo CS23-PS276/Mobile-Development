@@ -58,4 +58,9 @@
     <string name="simpan">Simpan</string>
     <string name="history">History</string>
     <string name="setting">Setting</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="search">Search</string>
+    <string name="article_hint">Enter Article Title</string>
+    <string name="searchButton">Get Article Recommendation</string>
 </resources>
