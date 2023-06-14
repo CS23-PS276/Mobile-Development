@@ -9,6 +9,9 @@
         android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <permission
         android:name="com.cs23_ps276.sahabatlansia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -23,11 +26,14 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/launcher_sahabat_lansia"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SahabatLansia" >
+        <activity
+            android:name="com.cs23_ps276.sahabatlansia.RekomendationActivity"
+            android:exported="false" />
         <activity
             android:name="com.cs23_ps276.sahabatlansia.ArticleDetailActivity"
             android:exported="false" />
@@ -78,6 +84,11 @@
         <uses-library
             android:name="androidx.window.sidecar"
             android:required="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

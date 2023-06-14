@@ -13,4 +13,7 @@ interface ApiService {
 
     @POST("/")
     fun getRecommendedArticles(@Body request: ArticleRequest): Call<ArticleResponse>
+
+    @POST("/")
+    fun getRecommendedCaregiver(@Body request: FinderRequest): Call<FinderResponse>
 }

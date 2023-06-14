@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-47:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\2082a8c5f5240e604fb4b91831287d1b\\transformed\\navigation-ui-2.6.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,162",
+                        "endColumns": "106,122",
+                        "endOffsets": "157,280"
+                    },
+                    "to": {
+                        "startLines": "102,103",
+                        "startColumns": "4,4",
+                        "startOffsets": "8705,8812",
+                        "endColumns": "106,122",
+                        "endOffsets": "8807,8930"
+                    }
+                },
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\8d9343f569df63b726615d18b45679d4\\transformed\\appcompat-1.6.1\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
@@ -54,23 +71,6 @@
                         "endLines": "6,34,35,36,37,38,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,104",
                         "endColumns": "12,76,76,79,107,93,93,131,80,65,92,67,62,102,59,65,55,70,59,53,111,56,60,53,75,124,86,82,138,81,82,87,53,55,65,73,77,88,75,75,74,71,89,72,91,95,71,75,95,52,66,86,86,61,63,62,104,103,95,106,57,59,79",
                         "endOffsets": "369,3177,3254,3334,3442,3536,4356,4488,4569,4635,4728,4796,4859,4962,5022,5088,5144,5215,5275,5329,5441,5498,5559,5613,5689,5814,5901,5984,6123,6205,6288,6376,6430,6486,6552,6626,6704,6793,6869,6945,7020,7092,7182,7255,7347,7443,7515,7591,7687,7740,7807,7894,7981,8043,8107,8170,8275,8379,8475,8582,8640,8700,9010"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\72d730bcad76fe5e918037e6b9907443\\transformed\\navigation-ui-2.5.3\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,162",
-                        "endColumns": "106,122",
-                        "endOffsets": "157,280"
-                    },
-                    "to": {
-                        "startLines": "102,103",
-                        "startColumns": "4,4",
-                        "startOffsets": "8705,8812",
-                        "endColumns": "106,122",
-                        "endOffsets": "8807,8930"
                     }
                 }
             ]

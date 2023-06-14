@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rb_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RekomendationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Isi data Keperluan Lansia"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Mobilitas Lansia"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_sulit"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="Sulit"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_biasa"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="Biasa"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_mudah"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="Mudah"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/hipertensi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_hipertensi_ya"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/iya"
+                        android:textColor="@color/teal_700" />
+
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_hipertensi_tidak"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/diabetes"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_diabetes_ya"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/iya"
+                        android:textColor="@color/teal_700" />
+
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_diabetes_tidak"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/reumatik"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_reumatik_ya"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/iya"
+                        android:textColor="@color/teal_700" />
+
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_reumatik_tidak"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/penyakit_jantung"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup4" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_jantung_ya"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/iya"
+                        android:textColor="@color/teal_700" />
+
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_jantung_tidak"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/asma"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup5" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_asma_ya"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/iya"
+                        android:textColor="@color/teal_700" />
+
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_asma_tidak"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/stroke"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup6" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_stroke_ya"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/iya"
+                        android:textColor="@color/teal_700" />
+
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_stroke_tidak"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/penyakit_lain"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup7" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_lain_ya"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/iya"
+                        android:textColor="@color/teal_700" />
+
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_lain_tidak"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Mengurus Rumah"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup8" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_tidak_perlu_urus_rumah"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_cukup_perlu_urus_rumah"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/cukup_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_perlu_urus_rumah"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_sangat_perlu_urus_rumah"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/sangat_perlu"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/membantu_pergerakan_dan_aktivitas_fisik"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup9" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_tidak_perlu_aktivitas_fisik"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_cukup_perlu_aktivitas_fisik"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/cukup_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_perlu_aktivitas_fisik"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_sangat_perlu_aktivitas_fisik"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/sangat_perlu"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/membantu_konsumsi_obat_dan_makanan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup10" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_tidak_perlu_obat_makan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_cukup_perlu_obat_makan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/cukup_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_perlu_obat_makan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_sangat_perlu_obat_makan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/sangat_perlu"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Mengecek kesehatan rutin secara mandiri"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup11" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_tidak_perlu_cek_kesehatan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_cukup_perlu_cek_kesehatan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/cukup_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_perlu_cek_kesehatan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_sangat_perlu_cek_kesehatan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/sangat_perlu"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/mendampingi_dan_menjaga"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup12" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView21">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_tidak_perlu_dampingi"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_cukup_perlu_dampingi"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/cukup_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_perlu_dampingi"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_sangat_perlu_dampingi"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/sangat_perlu"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/memasangkan_alat_medis_khusus"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup13" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_tidak_perlu_medis_khusus"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_cukup_perlu_medis_khusus"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/cukup_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_perlu_medis_khusus"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_sangat_perlu_medis_khusus"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/sangat_perlu"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/memeriksakan_rutin_ke_dokter"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup14" />
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView23">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_tidak_perlu_periksa_dokter"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_left_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/tidak_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_cukup_perlu_periksa_dokter"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/cukup_perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_perlu_periksa_dokter"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_center_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/perlu"
+                        android:textColor="@color/teal_700" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/rb_sangat_perlu_periksa_dokter"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_button_right_selector"
+                        android:button="@drawable/background_transparent"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/sangat_perlu"
+                        android:textColor="@color/teal_700" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Bahasa"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup15" />
+
+                <CheckBox
+                    android:id="@+id/cb_indonesia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Indonesia"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <CheckBox
+                    android:id="@+id/cb_inggris"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inggris"
+                    app:layout_constraintStart_toEndOf="@+id/cb_indonesia"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <CheckBox
+                    android:id="@+id/cb_jawa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jawa"
+                    app:layout_constraintStart_toEndOf="@+id/cb_inggris"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <CheckBox
+                    android:id="@+id/cb_sunda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunda"
+                    app:layout_constraintStart_toEndOf="@+id/cb_jawa"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <CheckBox
+                    android:id="@+id/cb_melayu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Melayu"
+                    app:layout_constraintStart_toEndOf="@+id/cb_sunda"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Asal Kota"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cb_jawa" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInput1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="16dp"
+                    android:hint="Nama Kota"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="Cari Caregiver"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textInput1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

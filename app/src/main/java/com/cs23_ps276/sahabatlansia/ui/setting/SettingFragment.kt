@@ -13,7 +13,6 @@ import com.cs23_ps276.sahabatlansia.databinding.FragmentSettingBinding
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
-
 class SettingFragment : Fragment() {
 
     private var _binding: FragmentSettingBinding? = null
