@@ -4,8 +4,6 @@ package com.cs23_ps276.sahabatlansia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,28 +20,15 @@ public final class CaregiverCardBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button;
-
-  @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
-  public final ImageView imgCaregiverCard;
-
-  @NonNull
-  public final TextView tvAsalCaregiverCard;
+  public final TextView tvKotaCaregiverCard;
 
   @NonNull
   public final TextView tvNamaCaregiverCard;
 
-  private CaregiverCardBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull ImageView imageView4, @NonNull ImageView imgCaregiverCard,
-      @NonNull TextView tvAsalCaregiverCard, @NonNull TextView tvNamaCaregiverCard) {
+  private CaregiverCardBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView tvKotaCaregiverCard, @NonNull TextView tvNamaCaregiverCard) {
     this.rootView = rootView;
-    this.button = button;
-    this.imageView4 = imageView4;
-    this.imgCaregiverCard = imgCaregiverCard;
-    this.tvAsalCaregiverCard = tvAsalCaregiverCard;
+    this.tvKotaCaregiverCard = tvKotaCaregiverCard;
     this.tvNamaCaregiverCard = tvNamaCaregiverCard;
   }
 
@@ -74,27 +59,9 @@ public final class CaregiverCardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.img_caregiver_card;
-      ImageView imgCaregiverCard = ViewBindings.findChildViewById(rootView, id);
-      if (imgCaregiverCard == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_asal_caregiver_card;
-      TextView tvAsalCaregiverCard = ViewBindings.findChildViewById(rootView, id);
-      if (tvAsalCaregiverCard == null) {
+      id = R.id.tv_kota_caregiver_card;
+      TextView tvKotaCaregiverCard = ViewBindings.findChildViewById(rootView, id);
+      if (tvKotaCaregiverCard == null) {
         break missingId;
       }
 
@@ -104,8 +71,8 @@ public final class CaregiverCardBinding implements ViewBinding {
         break missingId;
       }
 
-      return new CaregiverCardBinding((ConstraintLayout) rootView, button, imageView4,
-          imgCaregiverCard, tvAsalCaregiverCard, tvNamaCaregiverCard);
+      return new CaregiverCardBinding((ConstraintLayout) rootView, tvKotaCaregiverCard,
+          tvNamaCaregiverCard);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

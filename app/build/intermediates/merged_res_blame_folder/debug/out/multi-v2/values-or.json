@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-47:/values-or/values-or.xml",
+            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\7c17ec530a582ee93364914402f6f204\\transformed\\material-1.9.0\\res\\values-or\\values-or.xml",
@@ -40,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\2082a8c5f5240e604fb4b91831287d1b\\transformed\\navigation-ui-2.6.0\\res\\values-or\\values-or.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,172",
+                        "endColumns": "116,120",
+                        "endOffsets": "167,288"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "8528,8645",
+                        "endColumns": "116,120",
+                        "endOffsets": "8640,8761"
+                    }
+                },
+                {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\e51ba1c54d0889d702970bbc876a2fdb\\transformed\\core-1.10.1\\res\\values-or\\values-or.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -54,23 +71,6 @@
                         "startOffsets": "3493,3596,3698,3801,3906,4007,4109,8940",
                         "endColumns": "102,101,102,104,100,101,118,100",
                         "endOffsets": "3591,3693,3796,3901,4002,4104,4223,9036"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\72d730bcad76fe5e918037e6b9907443\\transformed\\navigation-ui-2.5.3\\res\\values-or\\values-or.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,172",
-                        "endColumns": "116,120",
-                        "endOffsets": "167,288"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "8528,8645",
-                        "endColumns": "116,120",
-                        "endOffsets": "8640,8761"
                     }
                 }
             ]

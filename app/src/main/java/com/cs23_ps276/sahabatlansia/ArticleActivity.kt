@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.cs23_ps276.sahabatlansia.adapter.ArticleAdapter
 import com.cs23_ps276.sahabatlansia.api.ApiService
+import com.cs23_ps276.sahabatlansia.api.Article
 import com.cs23_ps276.sahabatlansia.api.ArticleRequest
 import com.cs23_ps276.sahabatlansia.api.ArticleResponse
 import okhttp3.OkHttpClient
@@ -94,13 +95,12 @@ class ArticleActivity : AppCompatActivity() {
         })
     }
 
-    private fun updateRecommendedArticles(articleIds: List<Int>) {
-        val articleTitles = getArticleTitles(articleIds)
-        articleAdapter.setArticles(articleTitles)
+    private fun updateRecommendedArticles(articles: List<Article>) {
+        articleAdapter.setArticles(articles)
     }
 
-    private fun getArticleTitles(articleIds: List<Int>): List<String> {
-        return articleIds.map { "Article $it" }
+    private fun getArticleTitles(articles: List<Article>): List<String> {
+        return articles.map { it.judul }
     }
 
 }

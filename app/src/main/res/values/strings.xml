@@ -62,5 +62,25 @@
     <string name="username_hint">Enter your username</string>
     <string name="search">Search</string>
     <string name="article_hint">Enter Article Title</string>
-    <string name="searchButton">Get Article Recommendation</string>
+    <string name="searchButton">Get Article Topic Recommendation</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="tidak">Tidak</string>
+    <string name="iya">Iya</string>
+    <string name="hipertensi">Hipertensi</string>
+    <string name="reumatik">Reumatik</string>
+    <string name="penyakit_jantung">Penyakit Jantung</string>
+    <string name="asma">Asma</string>
+    <string name="stroke">Stroke</string>
+    <string name="penyakit_lain">Penyakit Lain</string>
+    <string name="tidak_perlu">Tidak perlu</string>
+    <string name="cukup_perlu">Cukup Perlu</string>
+    <string name="perlu">Perlu</string>
+    <string name="sangat_perlu">Sangat perlu</string>
+    <string name="membantu_pergerakan_dan_aktivitas_fisik">Membantu pergerakan dan aktivitas fisik</string>
+    <string name="membantu_konsumsi_obat_dan_makanan">Membantu konsumsi obat dan makanan</string>
+    <string name="mendampingi_dan_menjaga">Mendampingi dan menjaga</string>
+    <string name="memasangkan_alat_medis_khusus">Memasangkan alat medis khusus</string>
+    <string name="memeriksakan_rutin_ke_dokter">Memeriksakan rutin ke dokter</string>
+    <string name="share">Share</string>
+    <string name="like">Like</string>
 </resources>

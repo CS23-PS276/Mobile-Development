@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.SearchView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
@@ -22,20 +21,16 @@ public final class ActivityCariCaregiverBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button3;
+  public final Button btnCariCaregiver;
 
   @NonNull
   public final RecyclerView rvCaregiver;
 
-  @NonNull
-  public final SearchView searchView;
-
-  private ActivityCariCaregiverBinding(@NonNull ConstraintLayout rootView, @NonNull Button button3,
-      @NonNull RecyclerView rvCaregiver, @NonNull SearchView searchView) {
+  private ActivityCariCaregiverBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button btnCariCaregiver, @NonNull RecyclerView rvCaregiver) {
     this.rootView = rootView;
-    this.button3 = button3;
+    this.btnCariCaregiver = btnCariCaregiver;
     this.rvCaregiver = rvCaregiver;
-    this.searchView = searchView;
   }
 
   @Override
@@ -65,9 +60,9 @@ public final class ActivityCariCaregiverBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
+      id = R.id.btn_cari_caregiver;
+      Button btnCariCaregiver = ViewBindings.findChildViewById(rootView, id);
+      if (btnCariCaregiver == null) {
         break missingId;
       }
 
@@ -77,14 +72,8 @@ public final class ActivityCariCaregiverBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.searchView;
-      SearchView searchView = ViewBindings.findChildViewById(rootView, id);
-      if (searchView == null) {
-        break missingId;
-      }
-
-      return new ActivityCariCaregiverBinding((ConstraintLayout) rootView, button3, rvCaregiver,
-          searchView);
+      return new ActivityCariCaregiverBinding((ConstraintLayout) rootView, btnCariCaregiver,
+          rvCaregiver);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
