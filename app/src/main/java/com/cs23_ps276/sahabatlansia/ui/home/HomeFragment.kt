@@ -11,6 +11,7 @@ import com.cs23_ps276.sahabatlansia.ArticleActivity
 import com.cs23_ps276.sahabatlansia.CariCaregiverActivity
 import com.cs23_ps276.sahabatlansia.R
 import com.cs23_ps276.sahabatlansia.databinding.FragmentHomeBinding
+import com.cs23_ps276.sahabatlansia.notification.NotificationActivity
 
 class HomeFragment : Fragment() {
 
@@ -45,8 +46,8 @@ class HomeFragment : Fragment() {
         }
 
         binding.notificationButton.setOnClickListener {
-            //val intent = Intent(activity, NotifikasiActivity::class.java)
-            //startActivity(intent)
+            val intent = Intent(activity, NotificationActivity::class.java)
+            startActivity(intent)
         }
 
         return root

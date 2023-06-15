@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskListFragment">
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.cs23_ps276.sahabatlansia.notification.TaskListFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/action_taskListFragment_to_taskDetailFragment"
+            app:destination="@id/taskDetailFragment"
+             />
+        <action
+            android:id="@+id/action_taskListFragment_to_addTaskDialogFragment"
+            app:destination="@id/addTaskDialogFragment"
+             />
+    </fragment>
+    <fragment
+        android:id="@+id/taskDetailFragment"
+        android:name="com.cs23_ps276.sahabatlansia.notification.TaskDetailFragment"
+        android:label="@string/task_details"
+        tools:layout="@layout/fragment_task_detail">
+        <argument
+            android:name="id"
+            android:defaultValue="0L"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_taskDetailFragment_to_addTaskDialogFragment"
+            app:destination="@id/addTaskDialogFragment"
+             />
+    </fragment>
+    <fragment
+        android:id="@+id/addTaskDialogFragment"
+        android:name="com.cs23_ps276.sahabatlansia.notification.AddTaskDialogFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_add_task">
+        <action
+            android:id="@+id/action_addTaskDialogFragment_to_taskListFragment"
+            app:destination="@id/taskListFragment"
+             />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="id"
+            app:argType="long"
+            android:defaultValue="0L" />
+    </fragment>
+</navigation>

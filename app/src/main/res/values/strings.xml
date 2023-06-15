@@ -18,19 +18,19 @@
     <string name="notification">Notifikasi</string>
 
     <string-array name="data_nama">
-        <item>Nama Caregiver1</item>
-        <item>Nama Caregiver2</item>
-        <item>Nama Caregiver3</item>
-        <item>Nama Caregiver4</item>
-        <item>Nama Caregiver5</item>
+        <item>Santi</item>
+        <item>Joko</item>
+        <item>Putri</item>
+        <item>Hans</item>
+        <item>Fitri</item>
     </string-array>
 
     <string-array name="data_asal">
-        <item>Asal Kota1</item>
-        <item>Asal Kota2</item>
-        <item>Asal Kota3</item>
-        <item>Asal Kota4</item>
-        <item>Asal Kota5</item>
+        <item>Kota Malang</item>
+        <item>Kota Surabaya</item>
+        <item>Kabupaten Ngawi</item>
+        <item>Kota Semarang</item>
+        <item>Kota Jakarta</item>
     </string-array>
 
     <integer-array name="data_photo">
@@ -42,11 +42,11 @@
     </integer-array>
 
     <string-array name="data_waktu">
-        <item>17 Mei 2023</item>
-        <item>18 Mei 2023</item>
-        <item>19 Mei 2023</item>
+        <item>16 Juni 2023</item>
+        <item>09 Juni 2023</item>
+        <item>01 Juni 2023</item>
         <item>20 Mei 2023</item>
-        <item>21 Mei 2023</item>
+        <item>15 Mei 2023</item>
     </string-array>
     <string name="title_activity_homepage">HomepageActivity</string>
     <string name="title_home">Home</string>
@@ -83,4 +83,18 @@
     <string name="memeriksakan_rutin_ke_dokter">Memeriksakan rutin ke dokter</string>
     <string name="share">Share</string>
     <string name="like">Like</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="task_details">Task Details</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_new_task_title">Add New Task</string>
+    <string name="edit_task_title">Edit Task</string>
+    <string name="add_task_new_menu_button">Save</string>
+    <string name="no_reminders">Saat ini belum ada pengingat, tambahkan pengingat pada tombol di bawah</string>
+
 </resources>

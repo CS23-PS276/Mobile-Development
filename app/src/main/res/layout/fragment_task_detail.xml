@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="16dp"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/task_title_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_info_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/task_title_icon"
+        app:layout_constraintTop_toTopOf="@id/task_title_icon"
+        app:layout_constraintBottom_toBottomOf="@id/task_title_icon"
+        tools:text="Title"/>
+
+    <ImageView
+        android:id="@+id/task_desc_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/ic_baseline_description_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/task_title_icon"/>
+
+    <TextView
+        android:id="@+id/task_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/task_desc_icon"
+        app:layout_constraintTop_toTopOf="@id/task_desc_icon"
+        app:layout_constraintBottom_toBottomOf="@id/task_desc_icon"
+        tools:text="Description"/>
+
+    <ImageView
+        android:id="@+id/task_date_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/task_desc_icon"/>
+
+    <TextView
+        android:id="@+id/task_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/task_date_icon"
+        app:layout_constraintTop_toTopOf="@id/task_date_icon"
+        app:layout_constraintBottom_toBottomOf="@id/task_date_icon"
+        tools:text="15 Aug 2022"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/edit_task_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="Edit Task"
+        app:srcCompat="@drawable/ic_baseline_edit_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
