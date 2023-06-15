@@ -323,6 +323,7 @@ string perlu
 string previous
 string profile
 string register
+string rekomendasi_caregiver
 string reumatik
 string sangat_perlu
 string search
