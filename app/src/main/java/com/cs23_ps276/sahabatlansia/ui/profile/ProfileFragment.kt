@@ -20,8 +20,6 @@ class ProfileFragment : Fragment() {
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        // Your additional code for the fragment goes here
-
         return root
     }
 

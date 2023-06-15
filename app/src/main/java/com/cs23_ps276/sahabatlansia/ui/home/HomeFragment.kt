@@ -18,8 +18,6 @@ class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
-    private lateinit var homeViewModel: HomeViewModel
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -27,8 +25,6 @@ class HomeFragment : Fragment() {
     ): View {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
-        homeViewModel = ViewModelProvider(this)[HomeViewModel::class.java]
 
         binding.appTitle.text = getString(R.string.app_name)
         binding.appMotto.text = getString(R.string.app_motto)

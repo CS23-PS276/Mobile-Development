@@ -18,8 +18,6 @@ class HistoryFragment : Fragment() {
 
     private val list = ArrayList<History>()
 
-    private lateinit var historyViewModel: HistoryViewModel
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

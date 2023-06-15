@@ -96,5 +96,6 @@
     <string name="edit_task_title">Edit Task</string>
     <string name="add_task_new_menu_button">Save</string>
     <string name="no_reminders">Saat ini belum ada pengingat, tambahkan pengingat pada tombol di bawah</string>
+    <string name="rekomendasi_caregiver">Rekomendasi Caregiver</string>
 
 </resources>
