@@ -6,204 +6,203 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml
+8-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml
+9-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:5:5-66
-11-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-12-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:6:5-77
-12-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:6:22-74
-13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:7:5-68
-13-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:7:22-65
-14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-14-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:8:5-81
-14-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:8:22-78
-15
-16    <permission
-16-->[androidx.core:core:1.10.1] C:\Users\lenovo\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
-17        android:name="com.cs23_ps276.sahabatlansia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.10.1] C:\Users\lenovo\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
-18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.10.1] C:\Users\lenovo\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
-19
-20    <uses-permission android:name="com.cs23_ps276.sahabatlansia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.10.1] C:\Users\lenovo\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.10.1] C:\Users\lenovo\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
-21
-22    <application
-22-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:10:5-51:19
-23        android:allowBackup="true"
-23-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:11:9-35
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.10.1] C:\Users\lenovo\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
-25        android:dataExtractionRules="@xml/data_extraction_rules"
-25-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:12:9-65
-26        android:debuggable="true"
-27        android:extractNativeLibs="false"
-28        android:fullBackupContent="@xml/backup_rules"
-28-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:13:9-54
-29        android:icon="@mipmap/launcher_sahabat_lansia"
-29-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:14:9-55
-30        android:label="@string/app_name"
-30-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:15:9-41
-31        android:supportsRtl="true"
-31-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:16:9-35
-32        android:testOnly="true"
-33        android:theme="@style/Theme.SahabatLansia" >
-33-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:17:9-51
-34        <activity
-34-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:19:9-21:40
-35            android:name="com.cs23_ps276.sahabatlansia.RekomendationActivity"
-35-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:20:13-50
-36            android:exported="false" />
-36-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:21:13-37
-37        <activity
-37-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:22:9-24:40
-38            android:name="com.cs23_ps276.sahabatlansia.ArticleDetailActivity"
-38-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:23:13-50
-39            android:exported="false" />
-39-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:24:13-37
-40        <activity
-40-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:25:9-27:40
-41            android:name="com.cs23_ps276.sahabatlansia.ArticleActivity"
-41-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:26:13-44
-42            android:exported="false" />
-42-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:27:13-37
-43        <activity
-43-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:28:9-31:63
-44            android:name="com.cs23_ps276.sahabatlansia.HomepageActivity"
-44-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:29:13-45
-45            android:exported="false"
-45-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:30:13-37
-46            android:label="@string/title_activity_homepage" />
-46-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:31:13-60
+11-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.10.1] C:\Users\User\.gradle\caches\transforms-3\15dfe313f058b26515452a1604776b2e\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+14        android:name="com.cs23_ps276.sahabatlansia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.10.1] C:\Users\User\.gradle\caches\transforms-3\15dfe313f058b26515452a1604776b2e\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.10.1] C:\Users\User\.gradle\caches\transforms-3\15dfe313f058b26515452a1604776b2e\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.cs23_ps276.sahabatlansia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.10.1] C:\Users\User\.gradle\caches\transforms-3\15dfe313f058b26515452a1604776b2e\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.10.1] C:\Users\User\.gradle\caches\transforms-3\15dfe313f058b26515452a1604776b2e\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:7:5-51:19
+20        android:name="com.cs23_ps276.sahabatlansia.notification.BaseApplication"
+20-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:8:9-53
+21        android:allowBackup="true"
+21-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.10.1] C:\Users\User\.gradle\caches\transforms-3\15dfe313f058b26515452a1604776b2e\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/launcher_sahabat_lansia"
+27-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:12:9-55
+28        android:label="@string/app_name"
+28-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:13:9-41
+29        android:supportsRtl="true"
+29-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.SahabatLansia" >
+31-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:15:9-51
+32        <activity
+32-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:17:9-19:40
+33            android:name="com.cs23_ps276.sahabatlansia.DetailCaregiverActivity"
+33-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:18:13-52
+34            android:exported="false" />
+34-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:19:13-37
+35        <activity
+35-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:20:9-22:40
+36            android:name="com.cs23_ps276.sahabatlansia.RekomendationActivity"
+36-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:21:13-50
+37            android:exported="false" />
+37-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:22:13-37
+38        <activity
+38-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:23:9-25:40
+39            android:name="com.cs23_ps276.sahabatlansia.ArticleDetailActivity"
+39-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:24:13-50
+40            android:exported="false" />
+40-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:25:13-37
+41        <activity
+41-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:26:9-28:40
+42            android:name="com.cs23_ps276.sahabatlansia.ArticleActivity"
+42-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:27:13-44
+43            android:exported="false" />
+43-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:28:13-37
+44        <activity
+44-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:29:9-31:40
+45            android:name="com.cs23_ps276.sahabatlansia.notification.NotificationActivity"
+45-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:30:13-62
+46            android:exported="false" />
+46-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:31:13-37
 47        <activity
-47-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:32:9-34:40
+47-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:32:9-34:40
 48            android:name="com.cs23_ps276.sahabatlansia.RegisterActivity"
-48-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:33:13-45
+48-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:33:13-45
 49            android:exported="false" />
-49-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:34:13-37
+49-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:34:13-37
 50        <activity
-50-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:35:9-37:40
+50-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:35:9-37:40
 51            android:name="com.cs23_ps276.sahabatlansia.LoginActivity"
-51-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:36:13-42
+51-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:36:13-42
 52            android:exported="false" />
-52-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:37:13-37
+52-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:37:13-37
 53        <activity
-53-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:38:9-40:40
+53-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:38:9-40:40
 54            android:name="com.cs23_ps276.sahabatlansia.CariCaregiverActivity"
-54-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:39:13-50
+54-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:39:13-50
 55            android:exported="false" />
-55-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:40:13-37
+55-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:40:13-37
 56        <activity
-56-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:41:9-49:20
-57            android:name="com.cs23_ps276.sahabatlansia.OnboardingActivity"
-57-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:42:13-47
-58            android:exported="true" >
-58-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:43:13-36
-59            <intent-filter>
-59-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:44:13-48:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:45:17-69
-60-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:45:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:47:17-77
-62-->C:\Users\lenovo\AndroidStudioProjects\SahabatLansia\app\src\main\AndroidManifest.xml:47:27-74
-63            </intent-filter>
-64        </activity>
-65
-66        <provider
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-67            android:name="androidx.startup.InitializationProvider"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-68            android:authorities="com.cs23_ps276.sahabatlansia.androidx-startup"
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-69            android:exported="false" >
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-70            <meta-data
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-72                android:value="androidx.startup" />
-72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-73            <meta-data
-73-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\16c5355b9a526507fa55080a4f407e10\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-74-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\16c5355b9a526507fa55080a4f407e10\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-75                android:value="androidx.startup" />
-75-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\16c5355b9a526507fa55080a4f407e10\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-76            <meta-data
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-77                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-78                android:value="androidx.startup" />
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-79        </provider>
-80
-81        <uses-library
-81-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-82            android:name="androidx.window.extensions"
-82-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-83            android:required="false" />
-83-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-84        <uses-library
-84-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-85            android:name="androidx.window.sidecar"
-85-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-86            android:required="false" />
-86-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-87
-88        <service
-88-->[androidx.room:room-runtime:2.5.1] C:\Users\lenovo\.gradle\caches\transforms-3\1b7c7da59fb0ccb4eb7af9ffe8c82524\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
-89            android:name="androidx.room.MultiInstanceInvalidationService"
-89-->[androidx.room:room-runtime:2.5.1] C:\Users\lenovo\.gradle\caches\transforms-3\1b7c7da59fb0ccb4eb7af9ffe8c82524\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
-90            android:directBootAware="true"
-90-->[androidx.room:room-runtime:2.5.1] C:\Users\lenovo\.gradle\caches\transforms-3\1b7c7da59fb0ccb4eb7af9ffe8c82524\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
-91            android:exported="false" />
-91-->[androidx.room:room-runtime:2.5.1] C:\Users\lenovo\.gradle\caches\transforms-3\1b7c7da59fb0ccb4eb7af9ffe8c82524\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
-92
-93        <receiver
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-95            android:directBootAware="false"
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-96            android:enabled="true"
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-97            android:exported="true"
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-98            android:permission="android.permission.DUMP" >
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-99            <intent-filter>
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-101            </intent-filter>
-102            <intent-filter>
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-104            </intent-filter>
-105            <intent-filter>
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-107            </intent-filter>
-108            <intent-filter>
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5c2a5cebb047ba9aa4b841a7156d494f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-110            </intent-filter>
-111        </receiver>
-112    </application>
-113
-114</manifest>
+56-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:41:9-50:20
+57            android:name="com.cs23_ps276.sahabatlansia.HomepageActivity"
+57-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:42:13-45
+58            android:exported="true"
+58-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:43:13-36
+59            android:label="@string/title_activity_homepage" >
+59-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:44:13-60
+60            <intent-filter>
+60-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:45:13-49:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:46:17-69
+61-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:46:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:48:17-77
+63-->D:\SEMESTER 6\BANGKIT\CAPSTONE_PROJECT\Mobile-Development\app\src\main\AndroidManifest.xml:48:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\74e9a299b1039e89fa53989c6efb3d5d\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\74e9a299b1039e89fa53989c6efb3d5d\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+69            android:authorities="com.cs23_ps276.sahabatlansia.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\74e9a299b1039e89fa53989c6efb3d5d\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\74e9a299b1039e89fa53989c6efb3d5d\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\74e9a299b1039e89fa53989c6efb3d5d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\74e9a299b1039e89fa53989c6efb3d5d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\74e9a299b1039e89fa53989c6efb3d5d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\User\.gradle\caches\transforms-3\df7092bb9bae6bc7bb33df82729f57ff\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\User\.gradle\caches\transforms-3\df7092bb9bae6bc7bb33df82729f57ff\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\User\.gradle\caches\transforms-3\df7092bb9bae6bc7bb33df82729f57ff\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+79                android:value="androidx.startup" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+80        </provider>
+81
+82        <uses-library
+82-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4813f69f556428c58a4ece25e9164c62\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+83            android:name="androidx.window.extensions"
+83-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4813f69f556428c58a4ece25e9164c62\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4813f69f556428c58a4ece25e9164c62\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+85        <uses-library
+85-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4813f69f556428c58a4ece25e9164c62\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+86            android:name="androidx.window.sidecar"
+86-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4813f69f556428c58a4ece25e9164c62\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4813f69f556428c58a4ece25e9164c62\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+88
+89        <service
+89-->[androidx.room:room-runtime:2.5.1] C:\Users\User\.gradle\caches\transforms-3\6e4de77aa49343ef80ad941b63c8fa72\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+90            android:name="androidx.room.MultiInstanceInvalidationService"
+90-->[androidx.room:room-runtime:2.5.1] C:\Users\User\.gradle\caches\transforms-3\6e4de77aa49343ef80ad941b63c8fa72\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+91            android:directBootAware="true"
+91-->[androidx.room:room-runtime:2.5.1] C:\Users\User\.gradle\caches\transforms-3\6e4de77aa49343ef80ad941b63c8fa72\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+92            android:exported="false" />
+92-->[androidx.room:room-runtime:2.5.1] C:\Users\User\.gradle\caches\transforms-3\6e4de77aa49343ef80ad941b63c8fa72\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\transforms-3\fe4974b1caae5369e8ffdd7517499dcd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>

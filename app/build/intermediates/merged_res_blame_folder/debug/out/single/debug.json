@@ -1,334 +1,390 @@
 [
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_caregiver_card_photo.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\caregiver_card_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_left_selector.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_left_selector.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xxhdpi_launcher_sahabat_lansia_round.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xxhdpi/launcher_sahabat_lansia_round.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_baseline_calendar_month_24.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_baseline_calendar_month_24.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_right_checked.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_right_checked.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_ic_search.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\ic_search.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_home.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_fragment_setting.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\fragment_setting.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_caregiver_photo.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\caregiver_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_homepage.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_homepage.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_right_selector.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_right_selector.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/navigation_nav_graph.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_logo_photo.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\logo_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_baseline_info_24.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_baseline_info_24.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-anydpi-v26_launcher_sahabat_lansia_round.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-anydpi-v26/launcher_sahabat_lansia_round.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/xml_backup_rules.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-hdpi_launcher_sahabat_lansia_round.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-hdpi/launcher_sahabat_lansia_round.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\fragment_home.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_rounded_corner_background.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/rounded_corner_background.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-mdpi_launcher_sahabat_lansia.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-mdpi/launcher_sahabat_lansia.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_search.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_left_selector.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_left_selector.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_setting.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_setting.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-hdpi_launcher_sahabat_lansia.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-hdpi/launcher_sahabat_lansia.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-hdpi_launcher_sahabat_lansia_foreground.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-hdpi/launcher_sahabat_lansia_foreground.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_ic_add_black_24dp.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\ic_add_black_24dp.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_center_checked.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_center_checked.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_like_logo.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\like_logo.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_detail_caregiver.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_detail_caregiver.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_article.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_article.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xxxhdpi_launcher_sahabat_lansia.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xxxhdpi/launcher_sahabat_lansia.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_right_unchecked.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_right_unchecked.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_detail_caregiver.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_detail_caregiver.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_search_bar_background.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/search_bar_background.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_left_unchecked.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_left_unchecked.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xhdpi_launcher_sahabat_lansia.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xhdpi/launcher_sahabat_lansia.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_task_item.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/task_item.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_list_item_caregiver.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\list_item_caregiver.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_login.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_caregiver_detai_photo.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\caregiver_detai_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-mdpi_launcher_sahabat_lansia_foreground.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-mdpi/launcher_sahabat_lansia_foreground.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xxxhdpi_launcher_sahabat_lansia_foreground.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xxxhdpi/launcher_sahabat_lansia_foreground.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_profile.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_center_unchecked.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_center_unchecked.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_ic_history_black_24dp.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\ic_history_black_24dp.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xhdpi_launcher_sahabat_lansia_round.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xhdpi/launcher_sahabat_lansia_round.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\menu\\bottom_nav_menu.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_notification.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_notification.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_login.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_caregiver_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/caregiver_photo.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\navigation\\mobile_navigation.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_onboarding_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/onboarding_photo.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-hdpi_launcher_sahabat_lansia_foreground.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-hdpi/launcher_sahabat_lansia_foreground.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_home_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_item_article.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\item_article.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-anydpi-v26_launcher_sahabat_lansia.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-anydpi-v26/launcher_sahabat_lansia.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_center_unchecked.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_center_unchecked.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_setting_black_24dp.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_setting_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_article.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_article.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_center_selector.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_center_selector.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-anydpi-v26_launcher_sahabat_lansia.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-anydpi-v26/launcher_sahabat_lansia.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_onboarding.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_onboarding.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_baseline_description_24.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_baseline_description_24.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-mdpi_launcher_sahabat_lansia_foreground.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-mdpi/launcher_sahabat_lansia_foreground.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_baseline_edit_24.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_baseline_edit_24.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_search_bar_background.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\search_bar_background.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_left_unchecked.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_left_unchecked.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_left_checked.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_left_checked.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxxhdpi_launcher_sahabat_lansia_round.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxxhdpi/launcher_sahabat_lansia_round.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_main.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_ic_setting_black_24dp.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\ic_setting_black_24dp.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_rekomendation.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_rekomendation.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_ic_profile_black_24dp.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\ic_profile_black_24dp.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_share_logo.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/share_logo.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-mdpi_launcher_sahabat_lansia_round.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-mdpi/launcher_sahabat_lansia_round.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_center_selector.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_center_selector.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\xml\\data_extraction_rules.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_onboarding_photo.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\onboarding_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xhdpi_launcher_sahabat_lansia_foreground.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xhdpi/launcher_sahabat_lansia_foreground.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xxhdpi_launcher_sahabat_lansia_foreground.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xxhdpi/launcher_sahabat_lansia_foreground.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_history_card.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/history_card.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-anydpi-v26_launcher_sahabat_lansia_round.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-anydpi-v26/launcher_sahabat_lansia_round.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_rounded_corner_background.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\rounded_corner_background.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-hdpi_launcher_sahabat_lansia.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-hdpi/launcher_sahabat_lansia.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_homepage.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_homepage.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_logo_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/logo_photo.png"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xhdpi_launcher_sahabat_lansia_foreground.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xhdpi/launcher_sahabat_lansia_foreground.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_main.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\fragment_profile.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_history_black_24dp.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_history_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_center_checked.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_center_checked.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_onboarding.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_onboarding.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xhdpi_launcher_sahabat_lansia_round.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xhdpi/launcher_sahabat_lansia_round.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxxhdpi_launcher_sahabat_lansia_foreground.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxxhdpi/launcher_sahabat_lansia_foreground.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_cari_caregiver.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_cari_caregiver.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_article_detail.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_article_detail.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-mdpi_launcher_sahabat_lansia.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-mdpi/launcher_sahabat_lansia.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-hdpi_launcher_sahabat_lansia_round.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-hdpi/launcher_sahabat_lansia_round.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\xml\\backup_rules.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/xml_data_extraction_rules.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_history_card.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\history_card.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_add_task.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_add_task.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_add_task_button.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_add_task_button.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_share_logo.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\share_logo.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_background_transparent.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/background_transparent.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_rekomendation.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_rekomendation.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_item_caregiver.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/item_caregiver.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxxhdpi_launcher_sahabat_lansia.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxxhdpi/launcher_sahabat_lansia.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\activity_register.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxhdpi_launcher_sahabat_lansia.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxhdpi/launcher_sahabat_lansia.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_article_detail.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_article_detail.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xxhdpi_launcher_sahabat_lansia.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xxhdpi/launcher_sahabat_lansia.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxhdpi_launcher_sahabat_lansia_round.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxhdpi/launcher_sahabat_lansia_round.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_item_caregiver.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\item_caregiver.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_ic_home_black_24dp.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\ic_home_black_24dp.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_caregiver_card_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/caregiver_card_photo.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_logo_photo_alt.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\logo_photo_alt.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_tasks.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_tasks.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xhdpi_launcher_sahabat_lansia.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xhdpi/launcher_sahabat_lansia.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_notifikasi_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/notifikasi_photo.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_right_checked.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_right_checked.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_profile_black_24dp.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_profile_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_radio_button_right_unchecked.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\radio_button_right_unchecked.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_right_selector.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_right_selector.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_fragment_history.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\fragment_history.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-xxhdpi_launcher_sahabat_lansia_foreground.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-xxhdpi/launcher_sahabat_lansia_foreground.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\layout_caregiver_card.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\layout\\caregiver_card.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_radio_button_left_checked.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/radio_button_left_checked.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_vertical_line.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\vertical_line.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_task_detail.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_task_detail.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/navigation_mobile_navigation.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_article_photo.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\article_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_baseline_edit_calendar_24.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_baseline_edit_calendar_24.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-57:/mipmap-xxxhdpi_launcher_sahabat_lansia_round.png.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-59:/mipmap-xxxhdpi/launcher_sahabat_lansia_round.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_register.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-57:\\drawable_notifikasi_photo.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-59:\\drawable\\notifikasi_photo.png"
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_item_article.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/item_article.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-mdpi_launcher_sahabat_lansia_round.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-mdpi/launcher_sahabat_lansia_round.png"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_caregiver_card.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/caregiver_card.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_history.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_baseline_check_24.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_vertical_line.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/vertical_line.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_like_logo.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/like_logo.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_cari_caregiver.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_cari_caregiver.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_caregiver_detai_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/caregiver_detai_photo.png"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_baseline_more_horiz_24.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_baseline_more_horiz_24.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_article_photo.png.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/article_photo.png"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_baseline_close_24.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/drawable_ic_add_black_24dp.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/drawable/ic_add_black_24dp.xml"
     }
 ]
