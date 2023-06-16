@@ -102,5 +102,7 @@
     <string name="nama_pasien">Nama Pasien</string>
     <string name="tinggi_in_cm">Tinggi (In cm)</string>
     <string name="weight_in_kilogram">Weight (In Kilogram)</string>
+    <string name="name_caregiver">Arfan Septiana</string>
+    <string name="city_caregiver">Kabupaten Ngawi</string>
 
 </resources>
