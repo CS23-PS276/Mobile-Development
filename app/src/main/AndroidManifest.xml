@@ -15,6 +15,9 @@
         android:theme="@style/Theme.SahabatLansia"
         tools:targetApi="31">
         <activity
+            android:name=".LansiaFormActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailCaregiverActivity"
             android:exported="false" />
         <activity

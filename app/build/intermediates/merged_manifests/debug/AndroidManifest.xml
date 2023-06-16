@@ -30,6 +30,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.SahabatLansia" >
         <activity
+            android:name="com.cs23_ps276.sahabatlansia.LansiaFormActivity"
+            android:exported="false" />
+        <activity
             android:name="com.cs23_ps276.sahabatlansia.DetailCaregiverActivity"
             android:exported="false" />
         <activity

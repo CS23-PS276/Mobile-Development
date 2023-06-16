@@ -99,5 +99,8 @@
     <string name="rekomendasi_caregiver">Rekomendasi Caregiver</string>
     <string name="onboardingactivity">OnboardingActivity</string>
     <string name="add_data_lansia">Add Data Lansia</string>
+    <string name="nama_pasien">Nama Pasien</string>
+    <string name="tinggi_in_cm">Tinggi (In cm)</string>
+    <string name="weight_in_kilogram">Weight (In Kilogram)</string>
 
 </resources>

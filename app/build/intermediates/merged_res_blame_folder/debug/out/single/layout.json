@@ -16,10 +16,6 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\fragment_task_detail.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/layout/item_caregiver.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/item_caregiver.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\activity_homepage.xml",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_homepage.xml"
     },
@@ -64,6 +60,10 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\item_article.xml"
     },
     {
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/layout/activity_lansia_form.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_lansia_form.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\activity_article_detail.xml",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_article_detail.xml"
     },
@@ -82,6 +82,10 @@
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\history_card.xml",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\history_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\activity_lansia_form.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_lansia_form.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\fragment_tasks.xml",

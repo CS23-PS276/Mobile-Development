@@ -72,6 +72,7 @@
     <string name="membantu_pergerakan_dan_aktivitas_fisik">Membantu pergerakan dan aktivitas fisik</string>
     <string name="memeriksakan_rutin_ke_dokter">Memeriksakan rutin ke dokter</string>
     <string name="mendampingi_dan_menjaga">Mendampingi dan menjaga</string>
+    <string name="nama_pasien">Nama Pasien</string>
     <string name="next">Next</string>
     <string name="no_account">Saya belum memiliki akun.<font color="#088579"><b> Register</b></font></string>
     <string name="no_reminders">Saat ini belum ada pengingat, tambahkan pengingat pada tombol di bawah</string>
@@ -99,6 +100,7 @@
     <string name="task_details">Task Details</string>
     <string name="tidak">Tidak</string>
     <string name="tidak_perlu">Tidak perlu</string>
+    <string name="tinggi_in_cm">Tinggi (In cm)</string>
     <string name="title_activity_homepage">HomepageActivity</string>
     <string name="title_history">History</string>
     <string name="title_home">Home</string>
@@ -106,6 +108,7 @@
     <string name="title_setting">Setting</string>
     <string name="username">Username</string>
     <string name="username_hint">Enter your username</string>
+    <string name="weight_in_kilogram">Weight (In Kilogram)</string>
     <style name="MaterialCalendarTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
         <item name="buttonBarPositiveButtonStyle">@style/TextButton</item>
         <item name="buttonBarNegativeButtonStyle">@style/TextButton</item>

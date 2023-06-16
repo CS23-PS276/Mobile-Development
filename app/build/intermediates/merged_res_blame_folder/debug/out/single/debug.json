@@ -152,6 +152,10 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\fragment_profile.xml"
     },
     {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\layout_activity_lansia_form.xml.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_lansia_form.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\drawable_notifikasi_photo.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\drawable\\notifikasi_photo.png"
     },
@@ -208,10 +212,6 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\drawable\\ic_baseline_description_24.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_item_caregiver.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/item_caregiver.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\drawable_background_transparent.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\drawable\\background_transparent.xml"
     },
@@ -238,6 +238,10 @@
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\mipmap-mdpi_launcher_sahabat_lansia_round.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\mipmap-mdpi\\launcher_sahabat_lansia_round.png"
+    },
+    {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_lansia_form.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_lansia_form.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\xml_data_extraction_rules.xml.flat",
