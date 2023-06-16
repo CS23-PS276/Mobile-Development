@@ -132,10 +132,6 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_profile.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -244,6 +240,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_cari_caregiver.xml"
     },
     {
+        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_item_caregiver.xml.flat",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/item_caregiver.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\mipmap-xhdpi_launcher_sahabat_lansia_round.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\mipmap-xhdpi\\launcher_sahabat_lansia_round.png"
     },
@@ -296,6 +296,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\item_caregiver.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\layout_activity_lansia_form.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_lansia_form.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\mipmap-xxxhdpi_launcher_sahabat_lansia.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\mipmap-xxxhdpi\\launcher_sahabat_lansia.png"
     },
@@ -336,10 +340,6 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_fragment_history.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_history.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -378,10 +378,6 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\drawable_ic_history_black_24dp.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\drawable\\ic_history_black_24dp.png"
-    },
-    {
-        "merged": "com.cs23_ps276.sahabatlansia.app-merged_res-56:/layout_activity_cari_caregiver.xml.flat",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_cari_caregiver.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-merged_res-56:\\mipmap-xxxhdpi_launcher_sahabat_lansia_round.png.flat",

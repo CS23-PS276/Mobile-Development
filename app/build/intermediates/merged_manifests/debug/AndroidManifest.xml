@@ -30,6 +30,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.SahabatLansia" >
         <activity
+            android:name="com.cs23_ps276.sahabatlansia.LansiaFormActivity"
+            android:exported="false" />
+        <activity
             android:name="com.cs23_ps276.sahabatlansia.DetailCaregiverActivity"
             android:exported="false" />
         <activity
@@ -55,8 +58,11 @@
             android:exported="false" />
         <activity
             android:name="com.cs23_ps276.sahabatlansia.HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cs23_ps276.sahabatlansia.OnboardingActivity"
             android:exported="true"
-            android:label="@string/title_activity_homepage" >
+            android:label="@string/onboardingactivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

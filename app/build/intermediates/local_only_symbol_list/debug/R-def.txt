@@ -65,6 +65,8 @@ id appMotto
 id appTitle
 id appVersion
 id articleButton
+id btn_add
+id btn_add_lansia
 id btn_cari_caregiver
 id btn_pesan
 id button2
@@ -90,6 +92,9 @@ id ed_password
 id ed_username
 id edit_task_fab
 id email
+id et_nama_pasien
+id et_tinggi
+id et_weight
 id haveAccount
 id header
 id header2
@@ -243,8 +248,6 @@ id titleTextView
 id tv_asal_history
 id tv_caregiver_city
 id tv_caregiver_name
-id tv_kota_caregiver_card
-id tv_nama_caregiver_card
 id tv_nama_history
 id tv_waktu_history
 id username
@@ -253,13 +256,13 @@ layout activity_article_detail
 layout activity_cari_caregiver
 layout activity_detail_caregiver
 layout activity_homepage
+layout activity_lansia_form
 layout activity_login
 layout activity_main
 layout activity_notification
 layout activity_onboarding
 layout activity_register
 layout activity_rekomendation
-layout caregiver_card
 layout fragment_add_task
 layout fragment_history
 layout fragment_home
@@ -280,6 +283,7 @@ mipmap launcher_sahabat_lansia_round
 navigation mobile_navigation
 navigation nav_graph
 string action_settings
+string add_data_lansia
 string add_new_task_title
 string add_task_new_menu_button
 string app_motto
@@ -289,6 +293,7 @@ string article
 string article_hint
 string asma
 string caregiver_finder
+string city_caregiver
 string confirm_password
 string confirm_password_hint
 string cukup_perlu
@@ -310,11 +315,14 @@ string membantu_konsumsi_obat_dan_makanan
 string membantu_pergerakan_dan_aktivitas_fisik
 string memeriksakan_rutin_ke_dokter
 string mendampingi_dan_menjaga
+string nama_pasien
+string name_caregiver
 string next
 string no_account
 string no_reminders
 string notification
 string onboarding_image
+string onboardingactivity
 string password
 string password_hint
 string penyakit_jantung
@@ -336,6 +344,7 @@ string stroke
 string task_details
 string tidak
 string tidak_perlu
+string tinggi_in_cm
 string title_activity_homepage
 string title_history
 string title_home
@@ -343,6 +352,7 @@ string title_profile
 string title_setting
 string username
 string username_hint
+string weight_in_kilogram
 style MaterialCalendarTheme
 style SubTitle
 style TextButton

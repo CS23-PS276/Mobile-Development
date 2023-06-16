@@ -1,18 +1,28 @@
 package com.cs23_ps276.sahabatlansia.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.cs23_ps276.sahabatlansia.DetailCaregiverActivity
 import com.cs23_ps276.sahabatlansia.R
 
 class ListCaregiverAdapter(private val context: Context) :
     RecyclerView.Adapter<ListCaregiverAdapter.ViewHolder>() {
 
     private var caregiverList: List<String> = listOf()
+    private lateinit var onItemClickListener: OnItemClickListener
 
+    interface OnItemClickListener {
+        fun onItemClick(caregiver: String)
+    }
+
+    fun setOnItemClickListener(listener: OnItemClickListener) {
+        onItemClickListener = listener
+    }
     fun setCaregiver(caregivers: List<String>) {
         caregiverList = caregivers
         notifyDataSetChanged()
@@ -27,6 +37,12 @@ class ListCaregiverAdapter(private val context: Context) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val caregiver = caregiverList[position]
         holder.bind(caregiver)
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, DetailCaregiverActivity::class.java)
+            intent.putExtra("caregiverName", caregiver)
+            context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {
@@ -44,6 +60,15 @@ class ListCaregiverAdapter(private val context: Context) :
                 val city = parts[0]
                 tvCaregiverName.text = name
                 tvCaregiverCity.text = city
+            }
+        }
+        init {
+            itemView.setOnClickListener {
+                val position = adapterPosition
+                if (position != RecyclerView.NO_POSITION) {
+                    val caregiver = caregiverList[position]
+                    onItemClickListener.onItemClick(caregiver)
+                }
             }
         }
     }

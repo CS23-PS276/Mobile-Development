@@ -8,16 +8,16 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_article_detail.xml"
     },
     {
+        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/layout/item_caregiver.xml",
+        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/item_caregiver.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\activity_detail_caregiver.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_detail_caregiver.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\item_article.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\item_article.xml"
-    },
-    {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/layout/fragment_profile.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\caregiver_card.xml",
@@ -40,10 +40,6 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_rekomendation.xml"
     },
     {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/layout/fragment_history.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/fragment_history.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\task_item.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\task_item.xml"
     },
@@ -52,12 +48,12 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\fragment_add_task.xml"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\fragment_tasks.xml",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\fragment_tasks.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\activity_article.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_article.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\fragment_tasks.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\fragment_tasks.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\activity_register.xml",
@@ -80,6 +76,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_homepage.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\activity_lansia_form.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_lansia_form.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\history_card.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\history_card.xml"
     },
@@ -94,10 +94,6 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\activity_notification.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-main-58:\\layout\\activity_notification.xml"
-    },
-    {
-        "merged": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/layout/activity_cari_caregiver.xml",
-        "source": "com.cs23_ps276.sahabatlansia.app-main-58:/layout/activity_cari_caregiver.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:\\layout\\fragment_setting.xml",
