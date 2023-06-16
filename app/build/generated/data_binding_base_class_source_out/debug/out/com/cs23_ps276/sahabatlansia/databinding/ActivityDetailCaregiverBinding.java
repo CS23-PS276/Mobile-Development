@@ -22,16 +22,40 @@ public final class ActivityDetailCaregiverBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button4;
+  public final Button btnPesan;
 
   @NonNull
   public final ConstraintLayout constraintLayout;
 
   @NonNull
+  public final ConstraintLayout constraintLayout2;
+
+  @NonNull
   public final ImageView imageView;
 
   @NonNull
+  public final TextView textView26;
+
+  @NonNull
+  public final TextView textView27;
+
+  @NonNull
+  public final TextView textView28;
+
+  @NonNull
+  public final TextView textView29;
+
+  @NonNull
   public final TextView textView3;
+
+  @NonNull
+  public final TextView textView30;
+
+  @NonNull
+  public final TextView textView31;
+
+  @NonNull
+  public final TextView textView32;
 
   @NonNull
   public final TextView textView7;
@@ -43,14 +67,25 @@ public final class ActivityDetailCaregiverBinding implements ViewBinding {
   public final TextView textView9;
 
   private ActivityDetailCaregiverBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button button4, @NonNull ConstraintLayout constraintLayout,
-      @NonNull ImageView imageView, @NonNull TextView textView3, @NonNull TextView textView7,
+      @NonNull Button btnPesan, @NonNull ConstraintLayout constraintLayout,
+      @NonNull ConstraintLayout constraintLayout2, @NonNull ImageView imageView,
+      @NonNull TextView textView26, @NonNull TextView textView27, @NonNull TextView textView28,
+      @NonNull TextView textView29, @NonNull TextView textView3, @NonNull TextView textView30,
+      @NonNull TextView textView31, @NonNull TextView textView32, @NonNull TextView textView7,
       @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
-    this.button4 = button4;
+    this.btnPesan = btnPesan;
     this.constraintLayout = constraintLayout;
+    this.constraintLayout2 = constraintLayout2;
     this.imageView = imageView;
+    this.textView26 = textView26;
+    this.textView27 = textView27;
+    this.textView28 = textView28;
+    this.textView29 = textView29;
     this.textView3 = textView3;
+    this.textView30 = textView30;
+    this.textView31 = textView31;
+    this.textView32 = textView32;
     this.textView7 = textView7;
     this.textView8 = textView8;
     this.textView9 = textView9;
@@ -83,9 +118,9 @@ public final class ActivityDetailCaregiverBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
+      id = R.id.btn_pesan;
+      Button btnPesan = ViewBindings.findChildViewById(rootView, id);
+      if (btnPesan == null) {
         break missingId;
       }
 
@@ -95,15 +130,63 @@ public final class ActivityDetailCaregiverBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.constraintLayout2;
+      ConstraintLayout constraintLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout2 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
         break missingId;
       }
 
+      id = R.id.textView26;
+      TextView textView26 = ViewBindings.findChildViewById(rootView, id);
+      if (textView26 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView27;
+      TextView textView27 = ViewBindings.findChildViewById(rootView, id);
+      if (textView27 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView28;
+      TextView textView28 = ViewBindings.findChildViewById(rootView, id);
+      if (textView28 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView29;
+      TextView textView29 = ViewBindings.findChildViewById(rootView, id);
+      if (textView29 == null) {
+        break missingId;
+      }
+
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView30;
+      TextView textView30 = ViewBindings.findChildViewById(rootView, id);
+      if (textView30 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView31;
+      TextView textView31 = ViewBindings.findChildViewById(rootView, id);
+      if (textView31 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView32;
+      TextView textView32 = ViewBindings.findChildViewById(rootView, id);
+      if (textView32 == null) {
         break missingId;
       }
 
@@ -125,8 +208,10 @@ public final class ActivityDetailCaregiverBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailCaregiverBinding((ConstraintLayout) rootView, button4,
-          constraintLayout, imageView, textView3, textView7, textView8, textView9);
+      return new ActivityDetailCaregiverBinding((ConstraintLayout) rootView, btnPesan,
+          constraintLayout, constraintLayout2, imageView, textView26, textView27, textView28,
+          textView29, textView3, textView30, textView31, textView32, textView7, textView8,
+          textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

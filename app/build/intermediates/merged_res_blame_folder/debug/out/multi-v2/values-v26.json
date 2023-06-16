@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-55:/values-v26/values-v26.xml",
+            "outputFile": "com.cs23_ps276.sahabatlansia.app-mergeDebugResources-54:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\8d9343f569df63b726615d18b45679d4\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\89730aca27e5be8f149c889f5ec93a0f\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

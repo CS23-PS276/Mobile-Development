@@ -40,8 +40,11 @@
             android:exported="false" />
         <activity
             android:name=".HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingActivity"
             android:exported="true"
-            android:label="@string/title_activity_homepage">
+            android:label="@string/onboardingactivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

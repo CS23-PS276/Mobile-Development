@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.cs23_ps276.sahabatlansia.adapter.ListCaregiverAdapter
 import com.cs23_ps276.sahabatlansia.databinding.ActivityCariCaregiverBinding
 
-class CariCaregiverActivity : AppCompatActivity() {
+class CariCaregiverActivity : AppCompatActivity(), ListCaregiverAdapter.OnItemClickListener {
 
     private lateinit var binding: ActivityCariCaregiverBinding
     private lateinit var caregiverAdapter: ListCaregiverAdapter
@@ -19,6 +19,7 @@ class CariCaregiverActivity : AppCompatActivity() {
         setContentView(view)
 
         caregiverAdapter = ListCaregiverAdapter(this)
+        caregiverAdapter.setOnItemClickListener(this)
         binding.rvCaregiver.adapter = caregiverAdapter
         binding.rvCaregiver.layoutManager = LinearLayoutManager(this)
 
@@ -37,5 +38,12 @@ class CariCaregiverActivity : AppCompatActivity() {
         val caregivers = caregiverIds.map { "ID Caregiver: $it - Recommended Caregiver" }
         caregiverAdapter.setCaregiver(caregivers)
     }
+
+    override fun onItemClick(caregiver: String) {
+        val intent = Intent(this, DetailCaregiverActivity::class.java)
+        intent.putExtra("caregiverName", caregiver)
+        startActivity(intent)
+    }
 }
+
 
