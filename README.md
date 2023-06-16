@@ -16,12 +16,14 @@ You need to have [Android Studio](https://developer.android.com/studio) Flamingo
 Android Studio, build the project, and click Run. **Please Make sure You have the correct SDK PATH**
 
 ## Sample, Screenshots and Demo 📱
-![Screenshot 1](/docs/1.png)
-![Screenshot 2](/docs/2.png)
-![Screenshot 3](/docs/3.png)
-![Screenshot 4](/docs/4.png)
-![Screenshot 5](/docs/5.png)
-![Screenshot 6](/docs/6.png)
+<p align="center">
+  <img src="/docs/1.png" alt="screenshot 1" height="180" />
+  <img src="/docs/2.png" alt="screenshot 2" height="180" />
+  <img src="/docs/3.png" alt="screenshot 3" height="180" />
+  <img src="/docs/4.png" alt="screenshot 4" height="180" />
+  <img src="/docs/5.png" alt="screenshot 5" height="180" />
+  <img src="/docs/6.png" alt="screenshot 6" height="180" />
+</p>
 
 
 
