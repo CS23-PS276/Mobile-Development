@@ -6,8 +6,8 @@
 Mobile Development Repository for CS23-PS276 Bangkit Capstone Project "Sahabat Lansia"
 
 # Documentation Link:
-* [FIGMA](https://www.figma.com/file/zbVJ5yiJUFHXjzlbGzUXma/Capstone-Project?type=design&node-id=2%3A2&t=WPwY9QCUuHdzGRva-1)
-* [USERFLOW](https://drive.google.com/file/d/1JaIzKzxs-a759vNZvRshgCM6SiwZufLg/view)
+* [Figma](https://www.figma.com/file/zbVJ5yiJUFHXjzlbGzUXma/Capstone-Project?type=design&node-id=2%3A2&t=WPwY9QCUuHdzGRva-1)
+* [Userflow](https://drive.google.com/file/d/1JaIzKzxs-a759vNZvRshgCM6SiwZufLg/view)
 
 ## Project Setup Guide ⚒
 
@@ -25,3 +25,5 @@ Android Studio, build the project, and click Run. **Please Make sure You have th
   <img src="/docs/5.png" alt="screenshot 5" height="180" />
   <img src="/docs/6.png" alt="screenshot 6" height="180" />
 </p>
+
+[Application Demo](https://drive.google.com/file/d/1j_YrL1YpQaaoI5vSrEIjspDLfQj_92_h/view?usp=sharing)</p>
