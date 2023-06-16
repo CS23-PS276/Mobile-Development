@@ -1,8 +1,9 @@
-# Mobile-Development
-Mobile Development Repository for CS23-PS276 Bangkit Capstone Project "Sahabat Lansia"
 <p align="center">
   <img src="app/src/main/res/drawable/logo_photo.png" alt="logo sahabat lansia" height="180" />
 </p>
+
+# Mobile-Development
+Mobile Development Repository for CS23-PS276 Bangkit Capstone Project "Sahabat Lansia"
 
 # Documentation Link:
 * [FIGMA](https://www.figma.com/file/zbVJ5yiJUFHXjzlbGzUXma/Capstone-Project?type=design&node-id=2%3A2&t=WPwY9QCUuHdzGRva-1)
